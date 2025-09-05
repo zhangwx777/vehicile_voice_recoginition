@@ -1,0 +1,13 @@
+{
+  "motorcycle_01": 0,
+  "motorcycle_02": 1,
+  "sedan_01": 2,
+  "sedan_02": 3,
+  "sedan_03": 4,
+  "suv_01": 5,
+  "suv_02": 6,
+  "test_sedan_01": 7,
+  "test_suv_01": 8,
+  "truck_01": 9,
+  "truck_02": 10
+}

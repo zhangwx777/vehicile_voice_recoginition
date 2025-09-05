@@ -1,0 +1,73 @@
+2025-09-05 10:59:09,644 - vehicle_voice_recognition - INFO - 🔍 正在验证系统配置...
+2025-09-05 10:59:09,644 - vehicle_voice_recognition - INFO - ✅ 配置验证通过
+2025-09-05 10:59:09,670 - vehicle_voice_recognition - INFO - 🎯 车载语音识别系统 - 模型评估
+2025-09-05 10:59:09,670 - vehicle_voice_recognition - INFO - 正在加载模型和标签映射...
+2025-09-05 10:59:09,671 - vehicle_voice_recognition - INFO - 类别数量: 11
+2025-09-05 10:59:09,671 - vehicle_voice_recognition - INFO - 类别名称: ['motorcycle_01', 'motorcycle_02', 'sedan_01', 'sedan_02', 'sedan_03', 'suv_01', 'suv_02', 'test_sedan_01', 'test_suv_01', 'truck_01', 'truck_02']
+2025-09-05 10:59:09,684 - vehicle_voice_recognition - INFO - 加载完整检查点文件
+2025-09-05 10:59:09,684 - vehicle_voice_recognition - INFO - ✅ 模型加载成功
+2025-09-05 10:59:09,684 - vehicle_voice_recognition - INFO - 🧪 在测试集上评估模型...
+2025-09-05 10:59:09,684 - vehicle_voice_recognition - INFO - 音频数据增强器初始化完成，启用状态: True
+2025-09-05 10:59:09,684 - vehicle_voice_recognition - INFO - 音频预处理器初始化：sr=16000, n_fft=2048, n_mels=128
+2025-09-05 10:59:09,684 - vehicle_voice_recognition - INFO - 特征提取类型: ['mel']
+2025-09-05 10:59:09,684 - vehicle_voice_recognition - INFO - 数据增强: 启用
+2025-09-05 10:59:09,685 - vehicle_voice_recognition - INFO - 创建个体识别数据加载器: batch_size=16, test_size=0.2, val_size=0.2
+2025-09-05 10:59:09,685 - vehicle_voice_recognition - INFO - 找到 11 个个体车辆: ['motorcycle_01', 'motorcycle_02', 'sedan_01', 'sedan_02', 'sedan_03', 'suv_01', 'suv_02', 'test_sedan_01', 'test_suv_01', 'truck_01', 'truck_02']
+2025-09-05 10:59:09,686 - vehicle_voice_recognition - INFO - motorcycle_01: 找到 40 个文件
+2025-09-05 10:59:09,688 - vehicle_voice_recognition - INFO - motorcycle_02: 找到 40 个文件
+2025-09-05 10:59:09,689 - vehicle_voice_recognition - INFO - sedan_01: 找到 40 个文件
+2025-09-05 10:59:09,691 - vehicle_voice_recognition - INFO - sedan_02: 找到 40 个文件
+2025-09-05 10:59:09,693 - vehicle_voice_recognition - INFO - sedan_03: 找到 40 个文件
+2025-09-05 10:59:09,694 - vehicle_voice_recognition - INFO - test_sedan_01: 找到 8 个文件
+2025-09-05 10:59:09,696 - vehicle_voice_recognition - INFO - suv_01: 找到 40 个文件
+2025-09-05 10:59:09,697 - vehicle_voice_recognition - INFO - suv_02: 找到 40 个文件
+2025-09-05 10:59:09,698 - vehicle_voice_recognition - INFO - test_suv_01: 找到 8 个文件
+2025-09-05 10:59:09,699 - vehicle_voice_recognition - INFO - truck_01: 找到 40 个文件
+2025-09-05 10:59:09,702 - vehicle_voice_recognition - INFO - truck_02: 找到 40 个文件
+2025-09-05 10:59:09,702 - vehicle_voice_recognition - INFO - 个体化数据集准备完成: 总计 376 个文件，11 个个体
+2025-09-05 10:59:09,842 - vehicle_voice_recognition - INFO - 数据分割完成:
+2025-09-05 10:59:09,842 - vehicle_voice_recognition - INFO -   训练集: 225 样本
+2025-09-05 10:59:09,842 - vehicle_voice_recognition - INFO -   验证集: 75 样本
+2025-09-05 10:59:09,842 - vehicle_voice_recognition - INFO -   测试集: 76 样本
+2025-09-05 10:59:09,843 - vehicle_voice_recognition - INFO - 个体识别数据加载器创建成功
+2025-09-05 10:59:09,843 - vehicle_voice_recognition - INFO - 模型评估器初始化完成，设备: cpu
+2025-09-05 10:59:12,568 - vehicle_voice_recognition - INFO - 混淆矩阵已保存至: D:\python学习\vehicle_voice_recognition\results\evaluation\test_confusion_matrix.png
+2025-09-05 10:59:12,568 - vehicle_voice_recognition - INFO - 评估完成 - 准确率: 0.4474, F1分数: 0.4119
+2025-09-05 10:59:12,576 - vehicle_voice_recognition - INFO - 分类报告已保存至: D:\python学习\vehicle_voice_recognition\results\evaluation
+2025-09-05 10:59:12,576 - vehicle_voice_recognition - INFO - 🔍 评估个别样本 (随机选择30个)...
+2025-09-05 10:59:12,576 - vehicle_voice_recognition - INFO - Using device: cpu
+2025-09-05 10:59:12,577 - vehicle_voice_recognition - INFO - Loaded label mapping with 11 classes
+2025-09-05 10:59:12,577 - vehicle_voice_recognition - INFO - 音频预处理器初始化：sr=16000, n_fft=2048, n_mels=128
+2025-09-05 10:59:12,577 - vehicle_voice_recognition - INFO - 特征提取类型: ['mel']
+2025-09-05 10:59:12,577 - vehicle_voice_recognition - INFO - 数据增强: 禁用
+2025-09-05 10:59:12,577 - vehicle_voice_recognition - INFO - Initialized audio preprocessor with config parameters
+2025-09-05 10:59:12,587 - vehicle_voice_recognition - INFO - 加载完整检查点文件
+2025-09-05 10:59:12,589 - vehicle_voice_recognition - INFO - Loaded model from D:\python学习\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-05 10:59:12,589 - vehicle_voice_recognition - INFO - 个别样本评估结果:
+2025-09-05 10:59:12,589 - vehicle_voice_recognition - INFO -   样本数量: 0
+2025-09-05 10:59:12,589 - vehicle_voice_recognition - INFO -   准确率: 0.0000
+2025-09-05 10:59:12,589 - vehicle_voice_recognition - INFO -   平均置信度: 0.0000
+2025-09-05 10:59:12,590 - vehicle_voice_recognition - INFO -   平均推理时间: 0.0000秒
+2025-09-05 10:59:12,594 - vehicle_voice_recognition - INFO - 📊 分析模型性能...
+2025-09-05 10:59:12,594 - vehicle_voice_recognition - INFO - 训练历史图表: D:\python学习\vehicle_voice_recognition\results\training_history.png
+2025-09-05 10:59:12,595 - vehicle_voice_recognition - INFO - 模型复杂度分析:
+2025-09-05 10:59:12,595 - vehicle_voice_recognition - INFO -   总参数量: 28,395
+2025-09-05 10:59:12,595 - vehicle_voice_recognition - INFO -   可训练参数: 28,395
+2025-09-05 10:59:12,595 - vehicle_voice_recognition - INFO -   模型大小: 0.11 MB
+2025-09-05 10:59:12,595 - vehicle_voice_recognition - INFO - ⏱️  进行推理速度基准测试...
+2025-09-05 10:59:12,752 - vehicle_voice_recognition - INFO - 推理速度基准测试结果:
+2025-09-05 10:59:12,752 - vehicle_voice_recognition - INFO -   平均推理时间: 1.38 ± 0.68 ms
+2025-09-05 10:59:12,752 - vehicle_voice_recognition - INFO -   理论FPS: 723.3
+2025-09-05 10:59:12,752 - vehicle_voice_recognition - INFO - 📋 生成评估摘要...
+2025-09-05 10:59:12,755 - vehicle_voice_recognition - INFO - \n🎯 评估摘要:
+2025-09-05 10:59:12,755 - vehicle_voice_recognition - INFO - ============================================================
+2025-09-05 10:59:12,755 - vehicle_voice_recognition - INFO - 模型类别数: 11
+2025-09-05 10:59:12,755 - vehicle_voice_recognition - INFO - 模型参数量: 28,395
+2025-09-05 10:59:12,755 - vehicle_voice_recognition - INFO - 模型大小: 0.11 MB
+2025-09-05 10:59:12,755 - vehicle_voice_recognition - INFO - 测试集准确率: 0.4474
+2025-09-05 10:59:12,756 - vehicle_voice_recognition - INFO - 测试集F1分数: 0.4119
+2025-09-05 10:59:12,756 - vehicle_voice_recognition - INFO - 样本评估准确率: 0.0000
+2025-09-05 10:59:12,756 - vehicle_voice_recognition - INFO - 平均推理时间: 0.0000秒
+2025-09-05 10:59:12,756 - vehicle_voice_recognition - INFO - ============================================================
+2025-09-05 10:59:12,756 - vehicle_voice_recognition - INFO - ✅ 模型评估完成!
+2025-09-05 10:59:12,756 - vehicle_voice_recognition - INFO - 评估结果保存在: D:\python学习\vehicle_voice_recognition\results\evaluation

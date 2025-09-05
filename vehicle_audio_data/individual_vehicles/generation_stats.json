@@ -1,0 +1,17 @@
+{
+  "total_vehicles": 9,
+  "total_samples": 360,
+  "samples_by_type": {
+    "motorcycle": 80,
+    "sedan": 120,
+    "suv": 80,
+    "truck": 80
+  },
+  "samples_by_state": {
+    "idle": 90,
+    "acceleration": 90,
+    "cruising": 90,
+    "deceleration": 90
+  },
+  "generation_time": 3.4647903442382812
+}

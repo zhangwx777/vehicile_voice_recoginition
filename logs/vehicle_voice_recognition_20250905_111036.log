@@ -1,0 +1,26 @@
+2025-09-05 11:10:36,270 - vehicle_voice_recognition - INFO - 🔍 正在验证系统配置...
+2025-09-05 11:10:36,271 - vehicle_voice_recognition - INFO - ✅ 配置验证通过
+2025-09-05 11:10:37,479 - vehicle_voice_recognition - INFO - Using device: cpu
+2025-09-05 11:10:37,480 - vehicle_voice_recognition - INFO - Loaded label mapping with 11 classes
+2025-09-05 11:10:37,480 - vehicle_voice_recognition - INFO - 音频预处理器初始化：sr=16000, n_fft=2048, n_mels=128
+2025-09-05 11:10:37,480 - vehicle_voice_recognition - INFO - 特征提取类型: ['mel']
+2025-09-05 11:10:37,480 - vehicle_voice_recognition - INFO - 数据增强: 禁用
+2025-09-05 11:10:37,481 - vehicle_voice_recognition - INFO - Initialized audio preprocessor with config parameters
+2025-09-05 11:10:37,493 - vehicle_voice_recognition - INFO - 加载完整检查点文件
+2025-09-05 11:10:37,494 - vehicle_voice_recognition - INFO - Loaded model from models/individual_best_model.pth
+2025-09-05 11:10:37,494 - vehicle_voice_recognition - INFO - ✅ 个体识别推理引擎初始化完成
+2025-09-05 11:10:37,494 - vehicle_voice_recognition - INFO - 模型路径: models/individual_best_model.pth
+2025-09-05 11:10:37,495 - vehicle_voice_recognition - INFO - 支持的个体车辆数量: 11
+2025-09-05 11:10:37,495 - vehicle_voice_recognition - INFO - 个体车辆列表: ['motorcycle_01', 'motorcycle_02', 'sedan_01', 'sedan_02', 'sedan_03', 'suv_01', 'suv_02', 'test_sedan_01', 'test_suv_01', 'truck_01', 'truck_02']
+2025-09-05 11:10:37,495 - vehicle_voice_recognition - INFO - 正在分析音频进行个体识别: vehicle_audio_data\individual_vehicles\sedan\sedan_02\cruising\sedan_02_cruising_001.wav
+2025-09-05 11:10:39,253 - vehicle_voice_recognition - INFO - 预测结果: sedan_02, 置信度: 0.8097 (vehicle_audio_data\individual_vehicles\sedan\sedan_02\cruising\sedan_02_cruising_001.wav)
+2025-09-05 11:10:39,253 - vehicle_voice_recognition - INFO - 🎯 个体识别结果:
+2025-09-05 11:10:39,253 - vehicle_voice_recognition - INFO -    个体车辆: unknown_sedan_02
+2025-09-05 11:10:39,253 - vehicle_voice_recognition - INFO -    车辆类型: sedan
+2025-09-05 11:10:39,253 - vehicle_voice_recognition - INFO -    个体编号: 02
+2025-09-05 11:10:39,253 - vehicle_voice_recognition - INFO -    置信度: 0.8097
+2025-09-05 11:10:39,253 - vehicle_voice_recognition - INFO -    推理时间: 1.757秒
+2025-09-05 11:10:39,254 - vehicle_voice_recognition - INFO - 音频预处理器初始化：sr=16000, n_fft=2048, n_mels=128
+2025-09-05 11:10:39,254 - vehicle_voice_recognition - INFO - 特征提取类型: ['mel']
+2025-09-05 11:10:39,254 - vehicle_voice_recognition - INFO - 数据增强: 禁用
+2025-09-05 11:10:40,643 - vehicle_voice_recognition - INFO - 📊 可视化结果已保存

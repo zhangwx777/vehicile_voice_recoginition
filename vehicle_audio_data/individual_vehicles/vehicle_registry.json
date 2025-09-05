@@ -1,0 +1,74 @@
+{
+  "sedan_01": {
+    "type": "sedan",
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2020,
+    "engine_size": 2.5,
+    "description": "中型轿车，平稳运行"
+  },
+  "sedan_02": {
+    "type": "sedan",
+    "brand": "Honda",
+    "model": "Accord",
+    "year": 2021,
+    "engine_size": 2.0,
+    "description": "经济型轿车，低噪音"
+  },
+  "sedan_03": {
+    "type": "sedan",
+    "brand": "BMW",
+    "model": "3 Series",
+    "year": 2022,
+    "engine_size": 3.0,
+    "description": "豪华轿车，运动调校"
+  },
+  "suv_01": {
+    "type": "suv",
+    "brand": "Ford",
+    "model": "Explorer",
+    "year": 2020,
+    "engine_size": 3.5,
+    "description": "中大型SUV，强劲动力"
+  },
+  "suv_02": {
+    "type": "suv",
+    "brand": "Jeep",
+    "model": "Cherokee",
+    "year": 2021,
+    "engine_size": 2.4,
+    "description": "越野SUV，粗犷声音"
+  },
+  "truck_01": {
+    "type": "truck",
+    "brand": "Ford",
+    "model": "F-150",
+    "year": 2020,
+    "engine_size": 5.0,
+    "description": "皮卡车，低沉有力"
+  },
+  "truck_02": {
+    "type": "truck",
+    "brand": "Chevrolet",
+    "model": "Silverado",
+    "year": 2021,
+    "engine_size": 6.2,
+    "description": "重型皮卡，深沉轰鸣"
+  },
+  "motorcycle_01": {
+    "type": "motorcycle",
+    "brand": "Harley-Davidson",
+    "model": "Street 750",
+    "year": 2020,
+    "engine_size": 0.75,
+    "description": "巡航摩托，经典声浪"
+  },
+  "motorcycle_02": {
+    "type": "motorcycle",
+    "brand": "Yamaha",
+    "model": "YZF-R1",
+    "year": 2021,
+    "engine_size": 1.0,
+    "description": "运动摩托，高频尖锐"
+  }
+}

@@ -1,0 +1,3010 @@
+[
+  {
+    "audio_file": "motorcycle_01_acceleration_000.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3730068504810333,
+    "inference_time": 3.138688802719116
+  },
+  {
+    "audio_file": "motorcycle_01_acceleration_001.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3791154623031616,
+    "inference_time": 0.010631322860717773
+  },
+  {
+    "audio_file": "motorcycle_01_acceleration_002.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.37456196546554565,
+    "inference_time": 0.0071065425872802734
+  },
+  {
+    "audio_file": "motorcycle_01_acceleration_003.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3754178583621979,
+    "inference_time": 0.0074574947357177734
+  },
+  {
+    "audio_file": "motorcycle_01_acceleration_004.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.37745359539985657,
+    "inference_time": 0.009479761123657227
+  },
+  {
+    "audio_file": "motorcycle_01_acceleration_005.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3790239095687866,
+    "inference_time": 0.009720087051391602
+  },
+  {
+    "audio_file": "motorcycle_01_acceleration_006.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3867648243904114,
+    "inference_time": 0.011748790740966797
+  },
+  {
+    "audio_file": "motorcycle_01_acceleration_007.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.381513774394989,
+    "inference_time": 0.009944677352905273
+  },
+  {
+    "audio_file": "motorcycle_01_acceleration_008.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3743080496788025,
+    "inference_time": 0.006269216537475586
+  },
+  {
+    "audio_file": "motorcycle_01_acceleration_009.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3785724937915802,
+    "inference_time": 0.006665945053100586
+  },
+  {
+    "audio_file": "motorcycle_01_cruising_000.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4910829961299896,
+    "inference_time": 0.0075969696044921875
+  },
+  {
+    "audio_file": "motorcycle_01_cruising_001.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4915529191493988,
+    "inference_time": 0.00891876220703125
+  },
+  {
+    "audio_file": "motorcycle_01_cruising_002.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4911055862903595,
+    "inference_time": 0.010000228881835938
+  },
+  {
+    "audio_file": "motorcycle_01_cruising_003.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4922141432762146,
+    "inference_time": 0.010970830917358398
+  },
+  {
+    "audio_file": "motorcycle_01_cruising_004.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4923310875892639,
+    "inference_time": 0.008602619171142578
+  },
+  {
+    "audio_file": "motorcycle_01_cruising_005.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4907921850681305,
+    "inference_time": 0.006533384323120117
+  },
+  {
+    "audio_file": "motorcycle_01_cruising_006.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.48913657665252686,
+    "inference_time": 0.005521535873413086
+  },
+  {
+    "audio_file": "motorcycle_01_cruising_007.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4919654428958893,
+    "inference_time": 0.00940394401550293
+  },
+  {
+    "audio_file": "motorcycle_01_cruising_008.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4886501431465149,
+    "inference_time": 0.008469581604003906
+  },
+  {
+    "audio_file": "motorcycle_01_cruising_009.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4910188913345337,
+    "inference_time": 0.009731292724609375
+  },
+  {
+    "audio_file": "motorcycle_01_deceleration_000.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3957289755344391,
+    "inference_time": 0.012383222579956055
+  },
+  {
+    "audio_file": "motorcycle_01_deceleration_001.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3955114781856537,
+    "inference_time": 0.010277748107910156
+  },
+  {
+    "audio_file": "motorcycle_01_deceleration_002.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.39401915669441223,
+    "inference_time": 0.005827903747558594
+  },
+  {
+    "audio_file": "motorcycle_01_deceleration_003.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.39198634028434753,
+    "inference_time": 0.00836491584777832
+  },
+  {
+    "audio_file": "motorcycle_01_deceleration_004.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3911094665527344,
+    "inference_time": 0.009074687957763672
+  },
+  {
+    "audio_file": "motorcycle_01_deceleration_005.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3942800760269165,
+    "inference_time": 0.010067462921142578
+  },
+  {
+    "audio_file": "motorcycle_01_deceleration_006.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3935593068599701,
+    "inference_time": 0.012295722961425781
+  },
+  {
+    "audio_file": "motorcycle_01_deceleration_007.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3948701024055481,
+    "inference_time": 0.010571956634521484
+  },
+  {
+    "audio_file": "motorcycle_01_deceleration_008.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3957677185535431,
+    "inference_time": 0.00868844985961914
+  },
+  {
+    "audio_file": "motorcycle_01_deceleration_009.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3919181525707245,
+    "inference_time": 0.005730867385864258
+  },
+  {
+    "audio_file": "motorcycle_01_idle_000.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.32586631178855896,
+    "inference_time": 0.010825395584106445
+  },
+  {
+    "audio_file": "motorcycle_01_idle_001.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3312593996524811,
+    "inference_time": 0.007573127746582031
+  },
+  {
+    "audio_file": "motorcycle_01_idle_002.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.32728704810142517,
+    "inference_time": 0.009914636611938477
+  },
+  {
+    "audio_file": "motorcycle_01_idle_003.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.32821834087371826,
+    "inference_time": 0.010915040969848633
+  },
+  {
+    "audio_file": "motorcycle_01_idle_004.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.32617324590682983,
+    "inference_time": 0.00785684585571289
+  },
+  {
+    "audio_file": "motorcycle_01_idle_005.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3312337100505829,
+    "inference_time": 0.005920886993408203
+  },
+  {
+    "audio_file": "motorcycle_01_idle_006.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3263345956802368,
+    "inference_time": 0.009593486785888672
+  },
+  {
+    "audio_file": "motorcycle_01_idle_007.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.323965847492218,
+    "inference_time": 0.009070634841918945
+  },
+  {
+    "audio_file": "motorcycle_01_idle_008.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3227534592151642,
+    "inference_time": 0.010912418365478516
+  },
+  {
+    "audio_file": "motorcycle_01_idle_009.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.33064693212509155,
+    "inference_time": 0.011770486831665039
+  },
+  {
+    "audio_file": "motorcycle_02_acceleration_000.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.37356215715408325,
+    "inference_time": 0.009695768356323242
+  },
+  {
+    "audio_file": "motorcycle_02_acceleration_001.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.37462949752807617,
+    "inference_time": 0.006742238998413086
+  },
+  {
+    "audio_file": "motorcycle_02_acceleration_002.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3699614107608795,
+    "inference_time": 0.008983612060546875
+  },
+  {
+    "audio_file": "motorcycle_02_acceleration_003.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.36381101608276367,
+    "inference_time": 0.00790548324584961
+  },
+  {
+    "audio_file": "motorcycle_02_acceleration_004.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.36809322237968445,
+    "inference_time": 0.009973287582397461
+  },
+  {
+    "audio_file": "motorcycle_02_acceleration_005.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3639931082725525,
+    "inference_time": 0.011764287948608398
+  },
+  {
+    "audio_file": "motorcycle_02_acceleration_006.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3669000267982483,
+    "inference_time": 0.01178288459777832
+  },
+  {
+    "audio_file": "motorcycle_02_acceleration_007.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.37077799439430237,
+    "inference_time": 0.009602785110473633
+  },
+  {
+    "audio_file": "motorcycle_02_acceleration_008.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.3667162358760834,
+    "inference_time": 0.007788896560668945
+  },
+  {
+    "audio_file": "motorcycle_02_acceleration_009.wav",
+    "predicted_individual": "unknown_motorcycle_01",
+    "vehicle_type": "motorcycle",
+    "individual_number": "01",
+    "confidence": 0.37542450428009033,
+    "inference_time": 0.011019468307495117
+  },
+  {
+    "audio_file": "motorcycle_02_cruising_000.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.5361228585243225,
+    "inference_time": 0.00753021240234375
+  },
+  {
+    "audio_file": "motorcycle_02_cruising_001.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.5360084772109985,
+    "inference_time": 0.009340763092041016
+  },
+  {
+    "audio_file": "motorcycle_02_cruising_002.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.5350012183189392,
+    "inference_time": 0.011388778686523438
+  },
+  {
+    "audio_file": "motorcycle_02_cruising_003.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.5365554094314575,
+    "inference_time": 0.009090185165405273
+  },
+  {
+    "audio_file": "motorcycle_02_cruising_004.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.537580132484436,
+    "inference_time": 0.007067441940307617
+  },
+  {
+    "audio_file": "motorcycle_02_cruising_005.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.5355682373046875,
+    "inference_time": 0.006050825119018555
+  },
+  {
+    "audio_file": "motorcycle_02_cruising_006.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.5345033407211304,
+    "inference_time": 0.008692026138305664
+  },
+  {
+    "audio_file": "motorcycle_02_cruising_007.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.5350186228752136,
+    "inference_time": 0.011405706405639648
+  },
+  {
+    "audio_file": "motorcycle_02_cruising_008.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.5375037789344788,
+    "inference_time": 0.0104217529296875
+  },
+  {
+    "audio_file": "motorcycle_02_cruising_009.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.5345553159713745,
+    "inference_time": 0.01070261001586914
+  },
+  {
+    "audio_file": "motorcycle_02_deceleration_000.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4808325171470642,
+    "inference_time": 0.005689859390258789
+  },
+  {
+    "audio_file": "motorcycle_02_deceleration_001.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4789963662624359,
+    "inference_time": 0.00899052619934082
+  },
+  {
+    "audio_file": "motorcycle_02_deceleration_002.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.48313313722610474,
+    "inference_time": 0.010188817977905273
+  },
+  {
+    "audio_file": "motorcycle_02_deceleration_003.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.47892478108406067,
+    "inference_time": 0.011707067489624023
+  },
+  {
+    "audio_file": "motorcycle_02_deceleration_004.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.47921791672706604,
+    "inference_time": 0.010694026947021484
+  },
+  {
+    "audio_file": "motorcycle_02_deceleration_005.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.47882938385009766,
+    "inference_time": 0.010840415954589844
+  },
+  {
+    "audio_file": "motorcycle_02_deceleration_006.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.48002752661705017,
+    "inference_time": 0.008046150207519531
+  },
+  {
+    "audio_file": "motorcycle_02_deceleration_007.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.48104068636894226,
+    "inference_time": 0.007304668426513672
+  },
+  {
+    "audio_file": "motorcycle_02_deceleration_008.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4769579768180847,
+    "inference_time": 0.010955333709716797
+  },
+  {
+    "audio_file": "motorcycle_02_deceleration_009.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4812789261341095,
+    "inference_time": 0.01108098030090332
+  },
+  {
+    "audio_file": "motorcycle_02_idle_000.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.46540671586990356,
+    "inference_time": 0.009021520614624023
+  },
+  {
+    "audio_file": "motorcycle_02_idle_001.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4661467969417572,
+    "inference_time": 0.009859561920166016
+  },
+  {
+    "audio_file": "motorcycle_02_idle_002.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.46626266837120056,
+    "inference_time": 0.006913423538208008
+  },
+  {
+    "audio_file": "motorcycle_02_idle_003.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.46788734197616577,
+    "inference_time": 0.00611567497253418
+  },
+  {
+    "audio_file": "motorcycle_02_idle_004.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.46737906336784363,
+    "inference_time": 0.010651588439941406
+  },
+  {
+    "audio_file": "motorcycle_02_idle_005.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.46221816539764404,
+    "inference_time": 0.008467435836791992
+  },
+  {
+    "audio_file": "motorcycle_02_idle_006.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.46658220887184143,
+    "inference_time": 0.010081291198730469
+  },
+  {
+    "audio_file": "motorcycle_02_idle_007.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.46699661016464233,
+    "inference_time": 0.009889602661132812
+  },
+  {
+    "audio_file": "motorcycle_02_idle_008.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4673920273780823,
+    "inference_time": 0.008435487747192383
+  },
+  {
+    "audio_file": "motorcycle_02_idle_009.wav",
+    "predicted_individual": "unknown_motorcycle_02",
+    "vehicle_type": "motorcycle",
+    "individual_number": "02",
+    "confidence": 0.4676720201969147,
+    "inference_time": 0.006582021713256836
+  },
+  {
+    "audio_file": "sedan_01_acceleration_000.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.20393264293670654,
+    "inference_time": 0.00690770149230957
+  },
+  {
+    "audio_file": "sedan_01_acceleration_001.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.19345442950725555,
+    "inference_time": 0.008446455001831055
+  },
+  {
+    "audio_file": "sedan_01_acceleration_002.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.1903483122587204,
+    "inference_time": 0.009769916534423828
+  },
+  {
+    "audio_file": "sedan_01_acceleration_003.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.19958212971687317,
+    "inference_time": 0.013081550598144531
+  },
+  {
+    "audio_file": "sedan_01_acceleration_004.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.19366765022277832,
+    "inference_time": 0.009418725967407227
+  },
+  {
+    "audio_file": "sedan_01_acceleration_005.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.19426146149635315,
+    "inference_time": 0.0056896209716796875
+  },
+  {
+    "audio_file": "sedan_01_acceleration_006.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.19089289009571075,
+    "inference_time": 0.006680011749267578
+  },
+  {
+    "audio_file": "sedan_01_acceleration_007.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2000187337398529,
+    "inference_time": 0.006684780120849609
+  },
+  {
+    "audio_file": "sedan_01_acceleration_008.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.19612020254135132,
+    "inference_time": 0.008989810943603516
+  },
+  {
+    "audio_file": "sedan_01_acceleration_009.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.19814933836460114,
+    "inference_time": 0.009524822235107422
+  },
+  {
+    "audio_file": "sedan_01_cruising_000.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.17114466428756714,
+    "inference_time": 0.010006427764892578
+  },
+  {
+    "audio_file": "sedan_01_cruising_001.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.1708761602640152,
+    "inference_time": 0.010293960571289062
+  },
+  {
+    "audio_file": "sedan_01_cruising_002.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.1720789074897766,
+    "inference_time": 0.007823467254638672
+  },
+  {
+    "audio_file": "sedan_01_cruising_003.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.1721564531326294,
+    "inference_time": 0.00594019889831543
+  },
+  {
+    "audio_file": "sedan_01_cruising_004.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.1692906767129898,
+    "inference_time": 0.009878158569335938
+  },
+  {
+    "audio_file": "sedan_01_cruising_005.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.16947214305400848,
+    "inference_time": 0.009634256362915039
+  },
+  {
+    "audio_file": "sedan_01_cruising_006.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.17272736132144928,
+    "inference_time": 0.010511159896850586
+  },
+  {
+    "audio_file": "sedan_01_cruising_007.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.1690319925546646,
+    "inference_time": 0.03559756278991699
+  },
+  {
+    "audio_file": "sedan_01_cruising_008.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.16931389272212982,
+    "inference_time": 0.02420496940612793
+  },
+  {
+    "audio_file": "sedan_01_cruising_009.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.16976265609264374,
+    "inference_time": 0.017089366912841797
+  },
+  {
+    "audio_file": "sedan_01_deceleration_000.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20852842926979065,
+    "inference_time": 0.009752988815307617
+  },
+  {
+    "audio_file": "sedan_01_deceleration_001.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20809389650821686,
+    "inference_time": 0.0071680545806884766
+  },
+  {
+    "audio_file": "sedan_01_deceleration_002.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20966239273548126,
+    "inference_time": 0.009137630462646484
+  },
+  {
+    "audio_file": "sedan_01_deceleration_003.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20867203176021576,
+    "inference_time": 0.009142398834228516
+  },
+  {
+    "audio_file": "sedan_01_deceleration_004.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2089024931192398,
+    "inference_time": 0.011531829833984375
+  },
+  {
+    "audio_file": "sedan_01_deceleration_005.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20865054428577423,
+    "inference_time": 0.01058053970336914
+  },
+  {
+    "audio_file": "sedan_01_deceleration_006.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20833848416805267,
+    "inference_time": 0.006223440170288086
+  },
+  {
+    "audio_file": "sedan_01_deceleration_007.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2093755304813385,
+    "inference_time": 0.00767827033996582
+  },
+  {
+    "audio_file": "sedan_01_deceleration_008.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20765100419521332,
+    "inference_time": 0.010610580444335938
+  },
+  {
+    "audio_file": "sedan_01_deceleration_009.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20911501348018646,
+    "inference_time": 0.01266026496887207
+  },
+  {
+    "audio_file": "sedan_01_idle_000.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18421681225299835,
+    "inference_time": 0.01168370246887207
+  },
+  {
+    "audio_file": "sedan_01_idle_001.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18352320790290833,
+    "inference_time": 0.010054826736450195
+  },
+  {
+    "audio_file": "sedan_01_idle_002.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18492330610752106,
+    "inference_time": 0.0073473453521728516
+  },
+  {
+    "audio_file": "sedan_01_idle_003.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18376809358596802,
+    "inference_time": 0.006421804428100586
+  },
+  {
+    "audio_file": "sedan_01_idle_004.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.1844785511493683,
+    "inference_time": 0.009603500366210938
+  },
+  {
+    "audio_file": "sedan_01_idle_005.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18385601043701172,
+    "inference_time": 0.01409602165222168
+  },
+  {
+    "audio_file": "sedan_01_idle_006.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18444326519966125,
+    "inference_time": 0.01211237907409668
+  },
+  {
+    "audio_file": "sedan_01_idle_007.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18438629806041718,
+    "inference_time": 0.008759737014770508
+  },
+  {
+    "audio_file": "sedan_01_idle_008.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18618705868721008,
+    "inference_time": 0.0069179534912109375
+  },
+  {
+    "audio_file": "sedan_01_idle_009.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18434326350688934,
+    "inference_time": 0.00881648063659668
+  },
+  {
+    "audio_file": "sedan_02_acceleration_000.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.5590050220489502,
+    "inference_time": 0.011082172393798828
+  },
+  {
+    "audio_file": "sedan_02_acceleration_001.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.5607883334159851,
+    "inference_time": 0.013854503631591797
+  },
+  {
+    "audio_file": "sedan_02_acceleration_002.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.5717975497245789,
+    "inference_time": 0.011936187744140625
+  },
+  {
+    "audio_file": "sedan_02_acceleration_003.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.5521419644355774,
+    "inference_time": 0.009683609008789062
+  },
+  {
+    "audio_file": "sedan_02_acceleration_004.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.5710378289222717,
+    "inference_time": 0.007937431335449219
+  },
+  {
+    "audio_file": "sedan_02_acceleration_005.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.5628345012664795,
+    "inference_time": 0.00934147834777832
+  },
+  {
+    "audio_file": "sedan_02_acceleration_006.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.5513243079185486,
+    "inference_time": 0.013832330703735352
+  },
+  {
+    "audio_file": "sedan_02_acceleration_007.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.5624072551727295,
+    "inference_time": 0.015935420989990234
+  },
+  {
+    "audio_file": "sedan_02_acceleration_008.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.5622937083244324,
+    "inference_time": 0.009047269821166992
+  },
+  {
+    "audio_file": "sedan_02_acceleration_009.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.5593915581703186,
+    "inference_time": 0.0064258575439453125
+  },
+  {
+    "audio_file": "sedan_02_cruising_000.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.8151978254318237,
+    "inference_time": 0.0064928531646728516
+  },
+  {
+    "audio_file": "sedan_02_cruising_001.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.8096779584884644,
+    "inference_time": 0.010613441467285156
+  },
+  {
+    "audio_file": "sedan_02_cruising_002.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.8103533983230591,
+    "inference_time": 0.011762142181396484
+  },
+  {
+    "audio_file": "sedan_02_cruising_003.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.8141421675682068,
+    "inference_time": 0.014620780944824219
+  },
+  {
+    "audio_file": "sedan_02_cruising_004.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.8162068724632263,
+    "inference_time": 0.012581110000610352
+  },
+  {
+    "audio_file": "sedan_02_cruising_005.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.8133310079574585,
+    "inference_time": 0.008343219757080078
+  },
+  {
+    "audio_file": "sedan_02_cruising_006.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.8085939884185791,
+    "inference_time": 0.013512372970581055
+  },
+  {
+    "audio_file": "sedan_02_cruising_007.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.8162311911582947,
+    "inference_time": 0.012485980987548828
+  },
+  {
+    "audio_file": "sedan_02_cruising_008.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.8113121390342712,
+    "inference_time": 0.009604692459106445
+  },
+  {
+    "audio_file": "sedan_02_cruising_009.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.81648850440979,
+    "inference_time": 0.009952068328857422
+  },
+  {
+    "audio_file": "sedan_02_deceleration_000.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.7168505787849426,
+    "inference_time": 0.00806117057800293
+  },
+  {
+    "audio_file": "sedan_02_deceleration_001.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.7079561352729797,
+    "inference_time": 0.008797645568847656
+  },
+  {
+    "audio_file": "sedan_02_deceleration_002.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.7130606770515442,
+    "inference_time": 0.010113716125488281
+  },
+  {
+    "audio_file": "sedan_02_deceleration_003.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.7203772664070129,
+    "inference_time": 0.010911941528320312
+  },
+  {
+    "audio_file": "sedan_02_deceleration_004.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.711398720741272,
+    "inference_time": 0.008481502532958984
+  },
+  {
+    "audio_file": "sedan_02_deceleration_005.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.7127283215522766,
+    "inference_time": 0.0074198246002197266
+  },
+  {
+    "audio_file": "sedan_02_deceleration_006.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.7138800024986267,
+    "inference_time": 0.0061757564544677734
+  },
+  {
+    "audio_file": "sedan_02_deceleration_007.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.7138626575469971,
+    "inference_time": 0.007226228713989258
+  },
+  {
+    "audio_file": "sedan_02_deceleration_008.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.7119467258453369,
+    "inference_time": 0.008676767349243164
+  },
+  {
+    "audio_file": "sedan_02_deceleration_009.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.7146660685539246,
+    "inference_time": 0.010950326919555664
+  },
+  {
+    "audio_file": "sedan_02_idle_000.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.6916500329971313,
+    "inference_time": 0.010709762573242188
+  },
+  {
+    "audio_file": "sedan_02_idle_001.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.6879979372024536,
+    "inference_time": 0.009903669357299805
+  },
+  {
+    "audio_file": "sedan_02_idle_002.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.6848626732826233,
+    "inference_time": 0.008437156677246094
+  },
+  {
+    "audio_file": "sedan_02_idle_003.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.6912454962730408,
+    "inference_time": 0.006830692291259766
+  },
+  {
+    "audio_file": "sedan_02_idle_004.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.6913919448852539,
+    "inference_time": 0.010120868682861328
+  },
+  {
+    "audio_file": "sedan_02_idle_005.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.6821037530899048,
+    "inference_time": 0.009691238403320312
+  },
+  {
+    "audio_file": "sedan_02_idle_006.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.6837044358253479,
+    "inference_time": 0.012720584869384766
+  },
+  {
+    "audio_file": "sedan_02_idle_007.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.6956024169921875,
+    "inference_time": 0.011756420135498047
+  },
+  {
+    "audio_file": "sedan_02_idle_008.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.6842936873435974,
+    "inference_time": 0.008045673370361328
+  },
+  {
+    "audio_file": "sedan_02_idle_009.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.6877511739730835,
+    "inference_time": 0.005850076675415039
+  },
+  {
+    "audio_file": "sedan_03_acceleration_000.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.29818081855773926,
+    "inference_time": 0.007796525955200195
+  },
+  {
+    "audio_file": "sedan_03_acceleration_001.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.3008573055267334,
+    "inference_time": 0.010863304138183594
+  },
+  {
+    "audio_file": "sedan_03_acceleration_002.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2965813875198364,
+    "inference_time": 0.00922250747680664
+  },
+  {
+    "audio_file": "sedan_03_acceleration_003.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.30318740010261536,
+    "inference_time": 0.010482072830200195
+  },
+  {
+    "audio_file": "sedan_03_acceleration_004.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.29699692130088806,
+    "inference_time": 0.0102691650390625
+  },
+  {
+    "audio_file": "sedan_03_acceleration_005.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.30066436529159546,
+    "inference_time": 0.0068206787109375
+  },
+  {
+    "audio_file": "sedan_03_acceleration_006.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2967304587364197,
+    "inference_time": 0.006028652191162109
+  },
+  {
+    "audio_file": "sedan_03_acceleration_007.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.29782500863075256,
+    "inference_time": 0.009648323059082031
+  },
+  {
+    "audio_file": "sedan_03_acceleration_008.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2992282509803772,
+    "inference_time": 0.012166023254394531
+  },
+  {
+    "audio_file": "sedan_03_acceleration_009.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2952078878879547,
+    "inference_time": 0.009627342224121094
+  },
+  {
+    "audio_file": "sedan_03_cruising_000.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.3424603343009949,
+    "inference_time": 0.013175010681152344
+  },
+  {
+    "audio_file": "sedan_03_cruising_001.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.33981257677078247,
+    "inference_time": 0.00823068618774414
+  },
+  {
+    "audio_file": "sedan_03_cruising_002.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.3376370072364807,
+    "inference_time": 0.0057833194732666016
+  },
+  {
+    "audio_file": "sedan_03_cruising_003.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.3387971520423889,
+    "inference_time": 0.011199474334716797
+  },
+  {
+    "audio_file": "sedan_03_cruising_004.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.3394671380519867,
+    "inference_time": 0.01373291015625
+  },
+  {
+    "audio_file": "sedan_03_cruising_005.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.33704620599746704,
+    "inference_time": 0.013074874877929688
+  },
+  {
+    "audio_file": "sedan_03_cruising_006.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.33906182646751404,
+    "inference_time": 0.011890172958374023
+  },
+  {
+    "audio_file": "sedan_03_cruising_007.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.34004610776901245,
+    "inference_time": 0.006228446960449219
+  },
+  {
+    "audio_file": "sedan_03_cruising_008.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.33687829971313477,
+    "inference_time": 0.012072324752807617
+  },
+  {
+    "audio_file": "sedan_03_cruising_009.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.33833959698677063,
+    "inference_time": 0.01235818862915039
+  },
+  {
+    "audio_file": "sedan_03_deceleration_000.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.18727247416973114,
+    "inference_time": 0.010695695877075195
+  },
+  {
+    "audio_file": "sedan_03_deceleration_001.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.18743817508220673,
+    "inference_time": 0.013734817504882812
+  },
+  {
+    "audio_file": "sedan_03_deceleration_002.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.18858422338962555,
+    "inference_time": 0.009202241897583008
+  },
+  {
+    "audio_file": "sedan_03_deceleration_003.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.18791933357715607,
+    "inference_time": 0.0094146728515625
+  },
+  {
+    "audio_file": "sedan_03_deceleration_004.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.18753059208393097,
+    "inference_time": 0.01264810562133789
+  },
+  {
+    "audio_file": "sedan_03_deceleration_005.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.18771833181381226,
+    "inference_time": 0.01272439956665039
+  },
+  {
+    "audio_file": "sedan_03_deceleration_006.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.1878526359796524,
+    "inference_time": 0.013881444931030273
+  },
+  {
+    "audio_file": "sedan_03_deceleration_007.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.1877969354391098,
+    "inference_time": 0.00783848762512207
+  },
+  {
+    "audio_file": "sedan_03_deceleration_008.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.187704935669899,
+    "inference_time": 0.007578372955322266
+  },
+  {
+    "audio_file": "sedan_03_deceleration_009.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.1895340234041214,
+    "inference_time": 0.012811422348022461
+  },
+  {
+    "audio_file": "sedan_03_idle_000.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.29363158345222473,
+    "inference_time": 0.011014461517333984
+  },
+  {
+    "audio_file": "sedan_03_idle_001.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.3008654713630676,
+    "inference_time": 0.012463808059692383
+  },
+  {
+    "audio_file": "sedan_03_idle_002.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2939852178096771,
+    "inference_time": 0.012042522430419922
+  },
+  {
+    "audio_file": "sedan_03_idle_003.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2983494699001312,
+    "inference_time": 0.005467891693115234
+  },
+  {
+    "audio_file": "sedan_03_idle_004.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.29684582352638245,
+    "inference_time": 0.006607770919799805
+  },
+  {
+    "audio_file": "sedan_03_idle_005.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.29610562324523926,
+    "inference_time": 0.010337591171264648
+  },
+  {
+    "audio_file": "sedan_03_idle_006.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2957632541656494,
+    "inference_time": 0.014354228973388672
+  },
+  {
+    "audio_file": "sedan_03_idle_007.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.29591232538223267,
+    "inference_time": 0.011687994003295898
+  },
+  {
+    "audio_file": "sedan_03_idle_008.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2986547350883484,
+    "inference_time": 0.012526273727416992
+  },
+  {
+    "audio_file": "sedan_03_idle_009.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.29462069272994995,
+    "inference_time": 0.007100582122802734
+  },
+  {
+    "audio_file": "test_sedan_01_acceleration_000.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.18081645667552948,
+    "inference_time": 0.011561155319213867
+  },
+  {
+    "audio_file": "test_sedan_01_acceleration_001.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.18453745543956757,
+    "inference_time": 0.014464855194091797
+  },
+  {
+    "audio_file": "test_sedan_01_cruising_000.wav",
+    "predicted_individual": "unknown_test_suv_01",
+    "vehicle_type": "test_suv",
+    "individual_number": "01",
+    "confidence": 0.1715417206287384,
+    "inference_time": 0.014493227005004883
+  },
+  {
+    "audio_file": "test_sedan_01_cruising_001.wav",
+    "predicted_individual": "unknown_test_suv_01",
+    "vehicle_type": "test_suv",
+    "individual_number": "01",
+    "confidence": 0.16998109221458435,
+    "inference_time": 0.010011434555053711
+  },
+  {
+    "audio_file": "test_sedan_01_deceleration_000.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.20966503024101257,
+    "inference_time": 0.006952047348022461
+  },
+  {
+    "audio_file": "test_sedan_01_deceleration_001.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.21246297657489777,
+    "inference_time": 0.00935506820678711
+  },
+  {
+    "audio_file": "test_sedan_01_idle_000.wav",
+    "predicted_individual": "unknown_test_suv_01",
+    "vehicle_type": "test_suv",
+    "individual_number": "01",
+    "confidence": 0.16179993748664856,
+    "inference_time": 0.01022195816040039
+  },
+  {
+    "audio_file": "test_sedan_01_idle_001.wav",
+    "predicted_individual": "unknown_test_suv_01",
+    "vehicle_type": "test_suv",
+    "individual_number": "01",
+    "confidence": 0.16249370574951172,
+    "inference_time": 0.014297246932983398
+  },
+  {
+    "audio_file": "suv_01_acceleration_000.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.16062632203102112,
+    "inference_time": 0.013541698455810547
+  },
+  {
+    "audio_file": "suv_01_acceleration_001.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.16012997925281525,
+    "inference_time": 0.007441997528076172
+  },
+  {
+    "audio_file": "suv_01_acceleration_002.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.16000472009181976,
+    "inference_time": 0.00912022590637207
+  },
+  {
+    "audio_file": "suv_01_acceleration_003.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.1613081395626068,
+    "inference_time": 0.01214146614074707
+  },
+  {
+    "audio_file": "suv_01_acceleration_004.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.15987493097782135,
+    "inference_time": 0.015174150466918945
+  },
+  {
+    "audio_file": "suv_01_acceleration_005.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.15935932099819183,
+    "inference_time": 0.012733221054077148
+  },
+  {
+    "audio_file": "suv_01_acceleration_006.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.16008150577545166,
+    "inference_time": 0.007444620132446289
+  },
+  {
+    "audio_file": "suv_01_acceleration_007.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.1604047268629074,
+    "inference_time": 0.007001399993896484
+  },
+  {
+    "audio_file": "suv_01_acceleration_008.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.158722922205925,
+    "inference_time": 0.012984037399291992
+  },
+  {
+    "audio_file": "suv_01_acceleration_009.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.16080832481384277,
+    "inference_time": 0.013231039047241211
+  },
+  {
+    "audio_file": "suv_01_cruising_000.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.17086970806121826,
+    "inference_time": 0.015216827392578125
+  },
+  {
+    "audio_file": "suv_01_cruising_001.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.1706128716468811,
+    "inference_time": 0.00753331184387207
+  },
+  {
+    "audio_file": "suv_01_cruising_002.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.170305073261261,
+    "inference_time": 0.007417917251586914
+  },
+  {
+    "audio_file": "suv_01_cruising_003.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.17024625837802887,
+    "inference_time": 0.01309657096862793
+  },
+  {
+    "audio_file": "suv_01_cruising_004.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.17157737910747528,
+    "inference_time": 0.009201765060424805
+  },
+  {
+    "audio_file": "suv_01_cruising_005.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.16957987844944,
+    "inference_time": 0.01312255859375
+  },
+  {
+    "audio_file": "suv_01_cruising_006.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.17055565118789673,
+    "inference_time": 0.012379646301269531
+  },
+  {
+    "audio_file": "suv_01_cruising_007.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.17051495611667633,
+    "inference_time": 0.008021116256713867
+  },
+  {
+    "audio_file": "suv_01_cruising_008.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.17135751247406006,
+    "inference_time": 0.007074117660522461
+  },
+  {
+    "audio_file": "suv_01_cruising_009.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.16962218284606934,
+    "inference_time": 0.010209083557128906
+  },
+  {
+    "audio_file": "suv_01_deceleration_000.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2240138202905655,
+    "inference_time": 0.010564327239990234
+  },
+  {
+    "audio_file": "suv_01_deceleration_001.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.22337254881858826,
+    "inference_time": 0.01025700569152832
+  },
+  {
+    "audio_file": "suv_01_deceleration_002.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.22343555092811584,
+    "inference_time": 0.012607574462890625
+  },
+  {
+    "audio_file": "suv_01_deceleration_003.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2232644259929657,
+    "inference_time": 0.00705265998840332
+  },
+  {
+    "audio_file": "suv_01_deceleration_004.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.22408056259155273,
+    "inference_time": 0.0065152645111083984
+  },
+  {
+    "audio_file": "suv_01_deceleration_005.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2226475030183792,
+    "inference_time": 0.008682966232299805
+  },
+  {
+    "audio_file": "suv_01_deceleration_006.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2225993573665619,
+    "inference_time": 0.008812665939331055
+  },
+  {
+    "audio_file": "suv_01_deceleration_007.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.22270770370960236,
+    "inference_time": 0.009577512741088867
+  },
+  {
+    "audio_file": "suv_01_deceleration_008.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.22291085124015808,
+    "inference_time": 0.012381792068481445
+  },
+  {
+    "audio_file": "suv_01_deceleration_009.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.22288453578948975,
+    "inference_time": 0.007994890213012695
+  },
+  {
+    "audio_file": "suv_01_idle_000.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2063802182674408,
+    "inference_time": 0.007160663604736328
+  },
+  {
+    "audio_file": "suv_01_idle_001.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2079981118440628,
+    "inference_time": 0.008496284484863281
+  },
+  {
+    "audio_file": "suv_01_idle_002.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2071482241153717,
+    "inference_time": 0.011082172393798828
+  },
+  {
+    "audio_file": "suv_01_idle_003.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2063579261302948,
+    "inference_time": 0.008719444274902344
+  },
+  {
+    "audio_file": "suv_01_idle_004.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20558519661426544,
+    "inference_time": 0.011741876602172852
+  },
+  {
+    "audio_file": "suv_01_idle_005.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20741645991802216,
+    "inference_time": 0.009580373764038086
+  },
+  {
+    "audio_file": "suv_01_idle_006.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20526474714279175,
+    "inference_time": 0.012117385864257812
+  },
+  {
+    "audio_file": "suv_01_idle_007.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20620599389076233,
+    "inference_time": 0.01092076301574707
+  },
+  {
+    "audio_file": "suv_01_idle_008.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20670756697654724,
+    "inference_time": 0.010982990264892578
+  },
+  {
+    "audio_file": "suv_01_idle_009.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20508268475532532,
+    "inference_time": 0.011409282684326172
+  },
+  {
+    "audio_file": "suv_02_acceleration_000.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.17208094894886017,
+    "inference_time": 0.010042667388916016
+  },
+  {
+    "audio_file": "suv_02_acceleration_001.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.17105303704738617,
+    "inference_time": 0.011064291000366211
+  },
+  {
+    "audio_file": "suv_02_acceleration_002.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.17167919874191284,
+    "inference_time": 0.010389566421508789
+  },
+  {
+    "audio_file": "suv_02_acceleration_003.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.17168278992176056,
+    "inference_time": 0.00942230224609375
+  },
+  {
+    "audio_file": "suv_02_acceleration_004.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.17271751165390015,
+    "inference_time": 0.007337331771850586
+  },
+  {
+    "audio_file": "suv_02_acceleration_005.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.17128565907478333,
+    "inference_time": 0.005632638931274414
+  },
+  {
+    "audio_file": "suv_02_acceleration_006.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.17148451507091522,
+    "inference_time": 0.006022930145263672
+  },
+  {
+    "audio_file": "suv_02_acceleration_007.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.17246602475643158,
+    "inference_time": 0.011077165603637695
+  },
+  {
+    "audio_file": "suv_02_acceleration_008.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.17310258746147156,
+    "inference_time": 0.012293100357055664
+  },
+  {
+    "audio_file": "suv_02_acceleration_009.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.172150656580925,
+    "inference_time": 0.011101484298706055
+  },
+  {
+    "audio_file": "suv_02_cruising_000.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.16663196682929993,
+    "inference_time": 0.006520748138427734
+  },
+  {
+    "audio_file": "suv_02_cruising_001.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.16697514057159424,
+    "inference_time": 0.006582975387573242
+  },
+  {
+    "audio_file": "suv_02_cruising_002.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.16672107577323914,
+    "inference_time": 0.006045103073120117
+  },
+  {
+    "audio_file": "suv_02_cruising_003.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.16647158563137054,
+    "inference_time": 0.008732795715332031
+  },
+  {
+    "audio_file": "suv_02_cruising_004.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.1667887568473816,
+    "inference_time": 0.010470867156982422
+  },
+  {
+    "audio_file": "suv_02_cruising_005.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.16579851508140564,
+    "inference_time": 0.011811256408691406
+  },
+  {
+    "audio_file": "suv_02_cruising_006.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.16678601503372192,
+    "inference_time": 0.010848522186279297
+  },
+  {
+    "audio_file": "suv_02_cruising_007.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.1668897122144699,
+    "inference_time": 0.008440971374511719
+  },
+  {
+    "audio_file": "suv_02_cruising_008.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.16605253517627716,
+    "inference_time": 0.005778789520263672
+  },
+  {
+    "audio_file": "suv_02_cruising_009.wav",
+    "predicted_individual": "unknown_sedan_01",
+    "vehicle_type": "sedan",
+    "individual_number": "01",
+    "confidence": 0.1668594479560852,
+    "inference_time": 0.00911855697631836
+  },
+  {
+    "audio_file": "suv_02_deceleration_000.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2001499980688095,
+    "inference_time": 0.009781360626220703
+  },
+  {
+    "audio_file": "suv_02_deceleration_001.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2006719708442688,
+    "inference_time": 0.011176109313964844
+  },
+  {
+    "audio_file": "suv_02_deceleration_002.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.19862422347068787,
+    "inference_time": 0.011298418045043945
+  },
+  {
+    "audio_file": "suv_02_deceleration_003.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.19800718128681183,
+    "inference_time": 0.0075376033782958984
+  },
+  {
+    "audio_file": "suv_02_deceleration_004.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2007271647453308,
+    "inference_time": 0.006576061248779297
+  },
+  {
+    "audio_file": "suv_02_deceleration_005.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20184750854969025,
+    "inference_time": 0.0069653987884521484
+  },
+  {
+    "audio_file": "suv_02_deceleration_006.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20086669921875,
+    "inference_time": 0.011494874954223633
+  },
+  {
+    "audio_file": "suv_02_deceleration_007.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.19607317447662354,
+    "inference_time": 0.008327007293701172
+  },
+  {
+    "audio_file": "suv_02_deceleration_008.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.19876065850257874,
+    "inference_time": 0.008970260620117188
+  },
+  {
+    "audio_file": "suv_02_deceleration_009.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.19717593491077423,
+    "inference_time": 0.0077478885650634766
+  },
+  {
+    "audio_file": "suv_02_idle_000.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21453358232975006,
+    "inference_time": 0.0069773197174072266
+  },
+  {
+    "audio_file": "suv_02_idle_001.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21609768271446228,
+    "inference_time": 0.005593299865722656
+  },
+  {
+    "audio_file": "suv_02_idle_002.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21362370252609253,
+    "inference_time": 0.006015300750732422
+  },
+  {
+    "audio_file": "suv_02_idle_003.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.216032937169075,
+    "inference_time": 0.009225606918334961
+  },
+  {
+    "audio_file": "suv_02_idle_004.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21335488557815552,
+    "inference_time": 0.009055376052856445
+  },
+  {
+    "audio_file": "suv_02_idle_005.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21252815425395966,
+    "inference_time": 0.00880742073059082
+  },
+  {
+    "audio_file": "suv_02_idle_006.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21322256326675415,
+    "inference_time": 0.008991479873657227
+  },
+  {
+    "audio_file": "suv_02_idle_007.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2117166817188263,
+    "inference_time": 0.0070993900299072266
+  },
+  {
+    "audio_file": "suv_02_idle_008.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21421653032302856,
+    "inference_time": 0.0047838687896728516
+  },
+  {
+    "audio_file": "suv_02_idle_009.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21389350295066833,
+    "inference_time": 0.009598016738891602
+  },
+  {
+    "audio_file": "test_suv_01_acceleration_000.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.17715999484062195,
+    "inference_time": 0.010423898696899414
+  },
+  {
+    "audio_file": "test_suv_01_acceleration_001.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.1682477742433548,
+    "inference_time": 0.007865428924560547
+  },
+  {
+    "audio_file": "test_suv_01_cruising_000.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.18206259608268738,
+    "inference_time": 0.010055780410766602
+  },
+  {
+    "audio_file": "test_suv_01_cruising_001.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.1761823445558548,
+    "inference_time": 0.011747360229492188
+  },
+  {
+    "audio_file": "test_suv_01_deceleration_000.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.2565978765487671,
+    "inference_time": 0.0064089298248291016
+  },
+  {
+    "audio_file": "test_suv_01_deceleration_001.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.2567301094532013,
+    "inference_time": 0.0064237117767333984
+  },
+  {
+    "audio_file": "test_suv_01_idle_000.wav",
+    "predicted_individual": "unknown_test_suv_01",
+    "vehicle_type": "test_suv",
+    "individual_number": "01",
+    "confidence": 0.16389910876750946,
+    "inference_time": 0.008107185363769531
+  },
+  {
+    "audio_file": "test_suv_01_idle_001.wav",
+    "predicted_individual": "unknown_test_suv_01",
+    "vehicle_type": "test_suv",
+    "individual_number": "01",
+    "confidence": 0.16343966126441956,
+    "inference_time": 0.010162591934204102
+  },
+  {
+    "audio_file": "truck_01_acceleration_000.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.16143670678138733,
+    "inference_time": 0.012696981430053711
+  },
+  {
+    "audio_file": "truck_01_acceleration_001.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.16084954142570496,
+    "inference_time": 0.01793670654296875
+  },
+  {
+    "audio_file": "truck_01_acceleration_002.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.1608574241399765,
+    "inference_time": 0.009754419326782227
+  },
+  {
+    "audio_file": "truck_01_acceleration_003.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.1601305603981018,
+    "inference_time": 0.029462337493896484
+  },
+  {
+    "audio_file": "truck_01_acceleration_004.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.16181568801403046,
+    "inference_time": 0.01086735725402832
+  },
+  {
+    "audio_file": "truck_01_acceleration_005.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.1604994237422943,
+    "inference_time": 0.012159347534179688
+  },
+  {
+    "audio_file": "truck_01_acceleration_006.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.16072849929332733,
+    "inference_time": 0.005028724670410156
+  },
+  {
+    "audio_file": "truck_01_acceleration_007.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.16209185123443604,
+    "inference_time": 0.007868528366088867
+  },
+  {
+    "audio_file": "truck_01_acceleration_008.wav",
+    "predicted_individual": "unknown_suv_01",
+    "vehicle_type": "suv",
+    "individual_number": "01",
+    "confidence": 0.16154517233371735,
+    "inference_time": 0.0096893310546875
+  },
+  {
+    "audio_file": "truck_01_acceleration_009.wav",
+    "predicted_individual": "unknown_suv_02",
+    "vehicle_type": "suv",
+    "individual_number": "02",
+    "confidence": 0.161319762468338,
+    "inference_time": 0.012214183807373047
+  },
+  {
+    "audio_file": "truck_01_cruising_000.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18566027283668518,
+    "inference_time": 0.010007381439208984
+  },
+  {
+    "audio_file": "truck_01_cruising_001.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18376301229000092,
+    "inference_time": 0.008150339126586914
+  },
+  {
+    "audio_file": "truck_01_cruising_002.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18524858355522156,
+    "inference_time": 0.007903814315795898
+  },
+  {
+    "audio_file": "truck_01_cruising_003.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18577195703983307,
+    "inference_time": 0.008178234100341797
+  },
+  {
+    "audio_file": "truck_01_cruising_004.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18686208128929138,
+    "inference_time": 0.008557796478271484
+  },
+  {
+    "audio_file": "truck_01_cruising_005.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18649476766586304,
+    "inference_time": 0.009598016738891602
+  },
+  {
+    "audio_file": "truck_01_cruising_006.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18617479503154755,
+    "inference_time": 0.009599447250366211
+  },
+  {
+    "audio_file": "truck_01_cruising_007.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18596802651882172,
+    "inference_time": 0.011317729949951172
+  },
+  {
+    "audio_file": "truck_01_cruising_008.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18457317352294922,
+    "inference_time": 0.007596492767333984
+  },
+  {
+    "audio_file": "truck_01_cruising_009.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18654602766036987,
+    "inference_time": 0.006232738494873047
+  },
+  {
+    "audio_file": "truck_01_deceleration_000.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20607125759124756,
+    "inference_time": 0.008934736251831055
+  },
+  {
+    "audio_file": "truck_01_deceleration_001.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20608143508434296,
+    "inference_time": 0.010400056838989258
+  },
+  {
+    "audio_file": "truck_01_deceleration_002.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2054699808359146,
+    "inference_time": 0.008785009384155273
+  },
+  {
+    "audio_file": "truck_01_deceleration_003.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2056848108768463,
+    "inference_time": 0.012918949127197266
+  },
+  {
+    "audio_file": "truck_01_deceleration_004.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20530904829502106,
+    "inference_time": 0.009142637252807617
+  },
+  {
+    "audio_file": "truck_01_deceleration_005.wav",
+    "predicted_individual": "unknown_sedan_02",
+    "vehicle_type": "sedan",
+    "individual_number": "02",
+    "confidence": 0.20412805676460266,
+    "inference_time": 0.006549358367919922
+  },
+  {
+    "audio_file": "truck_01_deceleration_006.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20642729103565216,
+    "inference_time": 0.00597071647644043
+  },
+  {
+    "audio_file": "truck_01_deceleration_007.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20739935338497162,
+    "inference_time": 0.010122299194335938
+  },
+  {
+    "audio_file": "truck_01_deceleration_008.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2036610096693039,
+    "inference_time": 0.009108543395996094
+  },
+  {
+    "audio_file": "truck_01_deceleration_009.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20629937946796417,
+    "inference_time": 0.010490655899047852
+  },
+  {
+    "audio_file": "truck_01_idle_000.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20338226854801178,
+    "inference_time": 0.008814811706542969
+  },
+  {
+    "audio_file": "truck_01_idle_001.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20210489630699158,
+    "inference_time": 0.006463050842285156
+  },
+  {
+    "audio_file": "truck_01_idle_002.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20036323368549347,
+    "inference_time": 0.005803585052490234
+  },
+  {
+    "audio_file": "truck_01_idle_003.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20182998478412628,
+    "inference_time": 0.007775783538818359
+  },
+  {
+    "audio_file": "truck_01_idle_004.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2042921483516693,
+    "inference_time": 0.008932828903198242
+  },
+  {
+    "audio_file": "truck_01_idle_005.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20339123904705048,
+    "inference_time": 0.008657455444335938
+  },
+  {
+    "audio_file": "truck_01_idle_006.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2057928740978241,
+    "inference_time": 0.011586427688598633
+  },
+  {
+    "audio_file": "truck_01_idle_007.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2020825743675232,
+    "inference_time": 0.010877132415771484
+  },
+  {
+    "audio_file": "truck_01_idle_008.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20254011452198029,
+    "inference_time": 0.0069468021392822266
+  },
+  {
+    "audio_file": "truck_01_idle_009.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.20084241032600403,
+    "inference_time": 0.007715940475463867
+  },
+  {
+    "audio_file": "truck_02_acceleration_000.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.18040820956230164,
+    "inference_time": 0.007044076919555664
+  },
+  {
+    "audio_file": "truck_02_acceleration_001.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.18617181479930878,
+    "inference_time": 0.008530139923095703
+  },
+  {
+    "audio_file": "truck_02_acceleration_002.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.18861083686351776,
+    "inference_time": 0.010112285614013672
+  },
+  {
+    "audio_file": "truck_02_acceleration_003.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.18580737709999084,
+    "inference_time": 0.009656429290771484
+  },
+  {
+    "audio_file": "truck_02_acceleration_004.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.18673452734947205,
+    "inference_time": 0.009801387786865234
+  },
+  {
+    "audio_file": "truck_02_acceleration_005.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.1834724396467209,
+    "inference_time": 0.008898019790649414
+  },
+  {
+    "audio_file": "truck_02_acceleration_006.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.18587751686573029,
+    "inference_time": 0.005901813507080078
+  },
+  {
+    "audio_file": "truck_02_acceleration_007.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.1878836452960968,
+    "inference_time": 0.011072635650634766
+  },
+  {
+    "audio_file": "truck_02_acceleration_008.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.18112625181674957,
+    "inference_time": 0.010326385498046875
+  },
+  {
+    "audio_file": "truck_02_acceleration_009.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.18320493400096893,
+    "inference_time": 0.01187586784362793
+  },
+  {
+    "audio_file": "truck_02_cruising_000.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.24256519973278046,
+    "inference_time": 0.010538578033447266
+  },
+  {
+    "audio_file": "truck_02_cruising_001.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.24384281039237976,
+    "inference_time": 0.008825302124023438
+  },
+  {
+    "audio_file": "truck_02_cruising_002.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.24576707184314728,
+    "inference_time": 0.004966259002685547
+  },
+  {
+    "audio_file": "truck_02_cruising_003.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.24581557512283325,
+    "inference_time": 0.009545564651489258
+  },
+  {
+    "audio_file": "truck_02_cruising_004.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.236113041639328,
+    "inference_time": 0.010907411575317383
+  },
+  {
+    "audio_file": "truck_02_cruising_005.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.24823160469532013,
+    "inference_time": 0.013046026229858398
+  },
+  {
+    "audio_file": "truck_02_cruising_006.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2382267564535141,
+    "inference_time": 0.012877225875854492
+  },
+  {
+    "audio_file": "truck_02_cruising_007.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.2445618361234665,
+    "inference_time": 0.008337020874023438
+  },
+  {
+    "audio_file": "truck_02_cruising_008.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.24458502233028412,
+    "inference_time": 0.0072023868560791016
+  },
+  {
+    "audio_file": "truck_02_cruising_009.wav",
+    "predicted_individual": "unknown_sedan_03",
+    "vehicle_type": "sedan",
+    "individual_number": "03",
+    "confidence": 0.24346838891506195,
+    "inference_time": 0.014440774917602539
+  },
+  {
+    "audio_file": "truck_02_deceleration_000.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21984444558620453,
+    "inference_time": 0.01757979393005371
+  },
+  {
+    "audio_file": "truck_02_deceleration_001.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.22057323157787323,
+    "inference_time": 0.013562679290771484
+  },
+  {
+    "audio_file": "truck_02_deceleration_002.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21981145441532135,
+    "inference_time": 0.007491588592529297
+  },
+  {
+    "audio_file": "truck_02_deceleration_003.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2194034606218338,
+    "inference_time": 0.005278587341308594
+  },
+  {
+    "audio_file": "truck_02_deceleration_004.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21909034252166748,
+    "inference_time": 0.010843992233276367
+  },
+  {
+    "audio_file": "truck_02_deceleration_005.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2183179259300232,
+    "inference_time": 0.01540231704711914
+  },
+  {
+    "audio_file": "truck_02_deceleration_006.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.2206886112689972,
+    "inference_time": 0.01220703125
+  },
+  {
+    "audio_file": "truck_02_deceleration_007.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.22107265889644623,
+    "inference_time": 0.013347387313842773
+  },
+  {
+    "audio_file": "truck_02_deceleration_008.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21971367299556732,
+    "inference_time": 0.0066030025482177734
+  },
+  {
+    "audio_file": "truck_02_deceleration_009.wav",
+    "predicted_individual": "unknown_truck_01",
+    "vehicle_type": "truck",
+    "individual_number": "01",
+    "confidence": 0.21911858022212982,
+    "inference_time": 0.009856224060058594
+  },
+  {
+    "audio_file": "truck_02_idle_000.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18771140277385712,
+    "inference_time": 0.01055288314819336
+  },
+  {
+    "audio_file": "truck_02_idle_001.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18896502256393433,
+    "inference_time": 0.011368751525878906
+  },
+  {
+    "audio_file": "truck_02_idle_002.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18765302002429962,
+    "inference_time": 0.013748645782470703
+  },
+  {
+    "audio_file": "truck_02_idle_003.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.1882529854774475,
+    "inference_time": 0.007368564605712891
+  },
+  {
+    "audio_file": "truck_02_idle_004.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18710634112358093,
+    "inference_time": 0.007020235061645508
+  },
+  {
+    "audio_file": "truck_02_idle_005.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18765178322792053,
+    "inference_time": 0.009802103042602539
+  },
+  {
+    "audio_file": "truck_02_idle_006.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.18776904046535492,
+    "inference_time": 0.012327909469604492
+  },
+  {
+    "audio_file": "truck_02_idle_007.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.1863383948802948,
+    "inference_time": 0.010823249816894531
+  },
+  {
+    "audio_file": "truck_02_idle_008.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.1874520480632782,
+    "inference_time": 0.012077569961547852
+  },
+  {
+    "audio_file": "truck_02_idle_009.wav",
+    "predicted_individual": "unknown_truck_02",
+    "vehicle_type": "truck",
+    "individual_number": "02",
+    "confidence": 0.1873362809419632,
+    "inference_time": 0.008567571640014648
+  }
+]

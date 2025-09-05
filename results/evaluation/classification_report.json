@@ -1,0 +1,81 @@
+{
+  "motorcycle_01": {
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1-score": 0.7058823529411765,
+    "support": 8.0
+  },
+  "motorcycle_02": {
+    "precision": 0.7142857142857143,
+    "recall": 0.625,
+    "f1-score": 0.6666666666666666,
+    "support": 8.0
+  },
+  "sedan_01": {
+    "precision": 0.25,
+    "recall": 0.125,
+    "f1-score": 0.16666666666666666,
+    "support": 8.0
+  },
+  "sedan_02": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.8888888888888888,
+    "support": 8.0
+  },
+  "sedan_03": {
+    "precision": 0.5384615384615384,
+    "recall": 0.875,
+    "f1-score": 0.6666666666666666,
+    "support": 8.0
+  },
+  "suv_01": {
+    "precision": 0.6,
+    "recall": 0.375,
+    "f1-score": 0.46153846153846156,
+    "support": 8.0
+  },
+  "suv_02": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8.0
+  },
+  "test_sedan_01": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "test_suv_01": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2.0
+  },
+  "truck_01": {
+    "precision": 0.15,
+    "recall": 0.375,
+    "f1-score": 0.21428571428571427,
+    "support": 8.0
+  },
+  "truck_02": {
+    "precision": 0.16666666666666666,
+    "recall": 0.125,
+    "f1-score": 0.14285714285714285,
+    "support": 8.0
+  },
+  "accuracy": 0.4473684210526316,
+  "macro avg": {
+    "precision": 0.3532800532800533,
+    "recall": 0.38636363636363635,
+    "f1-score": 0.355768414591944,
+    "support": 76.0
+  },
+  "weighted avg": {
+    "precision": 0.4090611143242722,
+    "recall": 0.4473684210526316,
+    "f1-score": 0.41194237479067203,
+    "support": 76.0
+  }
+}

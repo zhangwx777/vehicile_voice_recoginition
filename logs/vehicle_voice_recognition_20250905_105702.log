@@ -1,0 +1,5 @@
+2025-09-05 10:57:02,806 - vehicle_voice_recognition - INFO - 🔍 正在验证系统配置...
+2025-09-05 10:57:02,807 - vehicle_voice_recognition - INFO - ✅ 配置验证通过
+2025-09-05 10:57:02,825 - vehicle_voice_recognition - INFO - 🎯 车载语音识别系统 - 模型评估
+2025-09-05 10:57:02,825 - vehicle_voice_recognition - ERROR - ❌ 模型文件不存在: D:\python学习\vehicle_voice_recognition\models\best_model_epoch_100.pth
+2025-09-05 10:57:02,825 - vehicle_voice_recognition - INFO - 请先运行训练: python train.py

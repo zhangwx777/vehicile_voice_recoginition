@@ -1,0 +1,31 @@
+2025-09-05 10:57:27,299 - vehicle_voice_recognition - INFO - 🔍 正在验证系统配置...
+2025-09-05 10:57:27,299 - vehicle_voice_recognition - INFO - ✅ 配置验证通过
+2025-09-05 10:57:27,322 - vehicle_voice_recognition - INFO - 🎯 车载语音识别系统 - 模型评估
+2025-09-05 10:57:27,324 - vehicle_voice_recognition - INFO - 正在加载模型和标签映射...
+2025-09-05 10:57:27,324 - vehicle_voice_recognition - INFO - 类别数量: 11
+2025-09-05 10:57:27,325 - vehicle_voice_recognition - INFO - 类别名称: ['motorcycle_01', 'motorcycle_02', 'sedan_01', 'sedan_02', 'sedan_03', 'suv_01', 'suv_02', 'test_sedan_01', 'test_suv_01', 'truck_01', 'truck_02']
+2025-09-05 10:57:27,336 - vehicle_voice_recognition - INFO - 加载完整检查点文件
+2025-09-05 10:57:27,337 - vehicle_voice_recognition - INFO - ✅ 模型加载成功
+2025-09-05 10:57:27,337 - vehicle_voice_recognition - INFO - 🧪 在测试集上评估模型...
+2025-09-05 10:57:27,337 - vehicle_voice_recognition - INFO - 音频数据增强器初始化完成，启用状态: True
+2025-09-05 10:57:27,337 - vehicle_voice_recognition - INFO - 音频预处理器初始化：sr=16000, n_fft=2048, n_mels=128
+2025-09-05 10:57:27,337 - vehicle_voice_recognition - INFO - 特征提取类型: ['mel']
+2025-09-05 10:57:27,337 - vehicle_voice_recognition - INFO - 数据增强: 启用
+2025-09-05 10:57:27,338 - vehicle_voice_recognition - INFO - 找到 6 个车辆类型: ['bus', 'individual_vehicles', 'motorcycle', 'sedan', 'suv', 'truck']
+2025-09-05 10:57:27,338 - vehicle_voice_recognition - INFO - bus: 找到 100 个文件
+2025-09-05 10:57:27,339 - vehicle_voice_recognition - INFO - individual_vehicles: 找到 0 个文件
+2025-09-05 10:57:27,340 - vehicle_voice_recognition - INFO - motorcycle: 找到 100 个文件
+2025-09-05 10:57:27,342 - vehicle_voice_recognition - INFO - sedan: 找到 100 个文件
+2025-09-05 10:57:27,344 - vehicle_voice_recognition - INFO - suv: 找到 100 个文件
+2025-09-05 10:57:27,345 - vehicle_voice_recognition - INFO - truck: 找到 100 个文件
+2025-09-05 10:57:27,348 - vehicle_voice_recognition - INFO - 数据集准备完成: 总计 500 个文件，6 个类别
+2025-09-05 10:57:27,460 - vehicle_voice_recognition - INFO - 数据集统计：总计 500 个样本，6 个类别
+2025-09-05 10:57:27,461 - vehicle_voice_recognition - INFO - 类别分布: {'bus': 100, 'motorcycle': 100, 'sedan': 100, 'suv': 100, 'truck': 100}
+2025-09-05 10:57:27,464 - vehicle_voice_recognition - INFO - 数据加载器创建完成:
+2025-09-05 10:57:27,465 - vehicle_voice_recognition - INFO -   训练集: 317 个样本, 19 个批次
+2025-09-05 10:57:27,465 - vehicle_voice_recognition - INFO -   验证集: 107 个样本, 7 个批次
+2025-09-05 10:57:27,465 - vehicle_voice_recognition - INFO -   测试集: 76 个样本, 5 个批次
+2025-09-05 10:57:27,465 - vehicle_voice_recognition - INFO - 模型评估器初始化完成，设备: cpu
+2025-09-05 10:57:30,203 - vehicle_voice_recognition - INFO - 混淆矩阵已保存至: D:\python学习\vehicle_voice_recognition\results\evaluation\test_confusion_matrix.png
+2025-09-05 10:57:30,203 - vehicle_voice_recognition - INFO - 评估完成 - 准确率: 0.1974, F1分数: 0.1117
+2025-09-05 10:57:30,204 - vehicle_voice_recognition - ERROR - ❌ 评估过程中出错: Number of classes, 7, does not match size of target_names, 11. Try specifying the labels parameter
