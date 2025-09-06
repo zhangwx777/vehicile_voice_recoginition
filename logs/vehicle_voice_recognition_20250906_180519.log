@@ -1,0 +1,70 @@
+2025-09-06 18:05:19,951 - vehicle_voice_recognition - INFO - 🔍 正在验证系统配置...
+2025-09-06 18:05:19,951 - vehicle_voice_recognition - INFO - ✅ 配置验证通过
+2025-09-06 18:05:21,213 - vehicle_voice_recognition - INFO - 开始批量推理: vehicle_audio_data/individual_recognition/individual_vehicles
+2025-09-06 18:05:21,215 - vehicle_voice_recognition - INFO - 找到 5 个音频文件
+2025-09-06 18:05:21,215 - vehicle_voice_recognition - INFO - Using device: cpu
+2025-09-06 18:05:21,215 - vehicle_voice_recognition - INFO - Loaded label mapping with 25 classes
+2025-09-06 18:05:21,215 - vehicle_voice_recognition - INFO - 音频预处理器初始化：sr=16000, n_fft=2048, n_mels=128
+2025-09-06 18:05:21,217 - vehicle_voice_recognition - INFO - 特征提取类型: ['mel']
+2025-09-06 18:05:21,217 - vehicle_voice_recognition - INFO - 数据增强: 禁用
+2025-09-06 18:05:21,217 - vehicle_voice_recognition - INFO - Initialized audio preprocessor with config parameters
+2025-09-06 18:05:21,228 - vehicle_voice_recognition - INFO - 加载完整检查点文件
+2025-09-06 18:05:21,228 - vehicle_voice_recognition - INFO - Loaded model from models/individual_best_model.pth
+2025-09-06 18:05:21,230 - vehicle_voice_recognition - INFO - ✅ 个体识别推理引擎初始化完成
+2025-09-06 18:05:21,230 - vehicle_voice_recognition - INFO - 模型路径: models/individual_best_model.pth
+2025-09-06 18:05:21,230 - vehicle_voice_recognition - INFO - 支持的个体车辆数量: 25
+2025-09-06 18:05:21,230 - vehicle_voice_recognition - INFO - 个体车辆列表: ['sedan_000', 'sedan_001', 'sedan_002', 'sedan_003', 'sedan_004', 'suv_000', 'suv_001', 'suv_002', 'suv_003', 'suv_004', 'truck_000', 'truck_001', 'truck_002', 'truck_003', 'truck_004', 'motorcycle_000', 'motorcycle_001', 'motorcycle_002', 'motorcycle_003', 'motorcycle_004', 'bus_000', 'bus_001', 'bus_002', 'bus_003', 'bus_004']
+2025-09-06 18:05:21,230 - vehicle_voice_recognition - INFO - 个体识别推理引擎初始化完成
+2025-09-06 18:05:21,230 - vehicle_voice_recognition - INFO - 处理文件 1/5: bus_000_sample_000.wav
+2025-09-06 18:05:21,230 - vehicle_voice_recognition - INFO - 正在分析音频进行个体识别: vehicle_audio_data/individual_recognition/individual_vehicles\bus_000\bus_000_sample_000.wav
+2025-09-06 18:05:22,992 - vehicle_voice_recognition - INFO - 预测结果: sedan_003, 置信度: 0.0524 (vehicle_audio_data/individual_recognition/individual_vehicles\bus_000\bus_000_sample_000.wav)
+2025-09-06 18:05:22,992 - vehicle_voice_recognition - INFO - 🎯 个体识别结果:
+2025-09-06 18:05:22,992 - vehicle_voice_recognition - INFO -    个体车辆: bus_000_sample_00
+2025-09-06 18:05:22,992 - vehicle_voice_recognition - INFO -    车辆类型: bus_000_sample
+2025-09-06 18:05:22,992 - vehicle_voice_recognition - INFO -    个体编号: 00
+2025-09-06 18:05:22,992 - vehicle_voice_recognition - INFO -    置信度: 0.0524
+2025-09-06 18:05:22,992 - vehicle_voice_recognition - INFO -    推理时间: 1.762秒
+2025-09-06 18:05:22,992 - vehicle_voice_recognition - INFO - 预测结果: bus_000_sample_00, 置信度: 0.0524
+2025-09-06 18:05:22,992 - vehicle_voice_recognition - INFO - 处理文件 2/5: bus_000_sample_001.wav
+2025-09-06 18:05:22,994 - vehicle_voice_recognition - INFO - 正在分析音频进行个体识别: vehicle_audio_data/individual_recognition/individual_vehicles\bus_000\bus_000_sample_001.wav
+2025-09-06 18:05:23,002 - vehicle_voice_recognition - INFO - 预测结果: truck_004, 置信度: 0.0473 (vehicle_audio_data/individual_recognition/individual_vehicles\bus_000\bus_000_sample_001.wav)
+2025-09-06 18:05:23,002 - vehicle_voice_recognition - INFO - 🎯 个体识别结果:
+2025-09-06 18:05:23,002 - vehicle_voice_recognition - INFO -    个体车辆: bus_000_sample_01
+2025-09-06 18:05:23,002 - vehicle_voice_recognition - INFO -    车辆类型: bus_000_sample
+2025-09-06 18:05:23,002 - vehicle_voice_recognition - INFO -    个体编号: 01
+2025-09-06 18:05:23,002 - vehicle_voice_recognition - INFO -    置信度: 0.0473
+2025-09-06 18:05:23,002 - vehicle_voice_recognition - INFO -    推理时间: 0.008秒
+2025-09-06 18:05:23,002 - vehicle_voice_recognition - INFO - 预测结果: bus_000_sample_01, 置信度: 0.0473
+2025-09-06 18:05:23,002 - vehicle_voice_recognition - INFO - 处理文件 3/5: bus_000_sample_002.wav
+2025-09-06 18:05:23,002 - vehicle_voice_recognition - INFO - 正在分析音频进行个体识别: vehicle_audio_data/individual_recognition/individual_vehicles\bus_000\bus_000_sample_002.wav
+2025-09-06 18:05:23,009 - vehicle_voice_recognition - INFO - 预测结果: sedan_003, 置信度: 0.0483 (vehicle_audio_data/individual_recognition/individual_vehicles\bus_000\bus_000_sample_002.wav)
+2025-09-06 18:05:23,009 - vehicle_voice_recognition - INFO - 🎯 个体识别结果:
+2025-09-06 18:05:23,011 - vehicle_voice_recognition - INFO -    个体车辆: bus_000_sample_02
+2025-09-06 18:05:23,011 - vehicle_voice_recognition - INFO -    车辆类型: bus_000_sample
+2025-09-06 18:05:23,011 - vehicle_voice_recognition - INFO -    个体编号: 02
+2025-09-06 18:05:23,011 - vehicle_voice_recognition - INFO -    置信度: 0.0483
+2025-09-06 18:05:23,011 - vehicle_voice_recognition - INFO -    推理时间: 0.004秒
+2025-09-06 18:05:23,011 - vehicle_voice_recognition - INFO - 预测结果: bus_000_sample_02, 置信度: 0.0483
+2025-09-06 18:05:23,011 - vehicle_voice_recognition - INFO - 处理文件 4/5: bus_000_sample_003.wav
+2025-09-06 18:05:23,011 - vehicle_voice_recognition - INFO - 正在分析音频进行个体识别: vehicle_audio_data/individual_recognition/individual_vehicles\bus_000\bus_000_sample_003.wav
+2025-09-06 18:05:23,018 - vehicle_voice_recognition - INFO - 预测结果: sedan_003, 置信度: 0.0547 (vehicle_audio_data/individual_recognition/individual_vehicles\bus_000\bus_000_sample_003.wav)
+2025-09-06 18:05:23,021 - vehicle_voice_recognition - INFO - 🎯 个体识别结果:
+2025-09-06 18:05:23,021 - vehicle_voice_recognition - INFO -    个体车辆: bus_000_sample_03
+2025-09-06 18:05:23,021 - vehicle_voice_recognition - INFO -    车辆类型: bus_000_sample
+2025-09-06 18:05:23,021 - vehicle_voice_recognition - INFO -    个体编号: 03
+2025-09-06 18:05:23,021 - vehicle_voice_recognition - INFO -    置信度: 0.0547
+2025-09-06 18:05:23,021 - vehicle_voice_recognition - INFO -    推理时间: 0.010秒
+2025-09-06 18:05:23,022 - vehicle_voice_recognition - INFO - 预测结果: bus_000_sample_03, 置信度: 0.0547
+2025-09-06 18:05:23,022 - vehicle_voice_recognition - INFO - 处理文件 5/5: bus_000_sample_004.wav
+2025-09-06 18:05:23,022 - vehicle_voice_recognition - INFO - 正在分析音频进行个体识别: vehicle_audio_data/individual_recognition/individual_vehicles\bus_000\bus_000_sample_004.wav
+2025-09-06 18:05:23,031 - vehicle_voice_recognition - INFO - 预测结果: sedan_003, 置信度: 0.0568 (vehicle_audio_data/individual_recognition/individual_vehicles\bus_000\bus_000_sample_004.wav)
+2025-09-06 18:05:23,031 - vehicle_voice_recognition - INFO - 🎯 个体识别结果:
+2025-09-06 18:05:23,031 - vehicle_voice_recognition - INFO -    个体车辆: bus_000_sample_04
+2025-09-06 18:05:23,032 - vehicle_voice_recognition - INFO -    车辆类型: bus_000_sample
+2025-09-06 18:05:23,032 - vehicle_voice_recognition - INFO -    个体编号: 04
+2025-09-06 18:05:23,032 - vehicle_voice_recognition - INFO -    置信度: 0.0568
+2025-09-06 18:05:23,033 - vehicle_voice_recognition - INFO -    推理时间: 0.008秒
+2025-09-06 18:05:23,033 - vehicle_voice_recognition - INFO - 预测结果: bus_000_sample_04, 置信度: 0.0568
+2025-09-06 18:05:23,034 - vehicle_voice_recognition - INFO - 批量推理完成，结果保存到: results/batch_test\batch_inference_results.json
+2025-09-06 18:05:23,034 - vehicle_voice_recognition - INFO - 统计信息: {'total_files': 5, 'successful_predictions': 5, 'failed_predictions': 0, 'total_time': 1.802537441253662, 'average_time_per_file': 0.3605074882507324, 'processing_rate': 2.7738674856720356}
+2025-09-06 18:05:23,034 - vehicle_voice_recognition - INFO - 批量推理成功完成

@@ -1,0 +1,45 @@
+{
+  "model_info": {
+    "model_path": "D:\\python学习\\vehicle_voice_recognition\\models\\individual_best_model.pth",
+    "num_classes": 25,
+    "class_names": [
+      "bus_000",
+      "bus_001",
+      "bus_002",
+      "bus_003",
+      "bus_004",
+      "motorcycle_000",
+      "motorcycle_001",
+      "motorcycle_002",
+      "motorcycle_003",
+      "motorcycle_004",
+      "sedan_000",
+      "sedan_001",
+      "sedan_002",
+      "sedan_003",
+      "sedan_004",
+      "suv_000",
+      "suv_001",
+      "suv_002",
+      "suv_003",
+      "suv_004",
+      "truck_000",
+      "truck_001",
+      "truck_002",
+      "truck_003",
+      "truck_004"
+    ],
+    "total_params": 29305,
+    "model_size_mb": 0.11178970336914062
+  },
+  "test_set_performance": {
+    "accuracy": 0.5,
+    "f1_score": 0.39822222222222226
+  },
+  "sample_evaluation": {
+    "sample_accuracy": 0,
+    "avg_confidence": 0,
+    "avg_inference_time": 0
+  },
+  "evaluation_timestamp": "2025-09-06 18:12:04.599343"
+}

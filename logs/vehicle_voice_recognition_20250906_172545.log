@@ -1,0 +1,41 @@
+2025-09-06 17:25:45,984 - vehicle_voice_recognition - INFO - 🎯 车载语音个体识别系统 - 训练执行器
+2025-09-06 17:25:45,992 - vehicle_voice_recognition - INFO - ✅ 发现 1250 个个体化音频文件
+2025-09-06 17:25:45,994 - vehicle_voice_recognition - INFO - 系统状态 - CPU: 45.8%, 内存: 51.4%, GPU: 0.0%
+2025-09-06 17:25:47,312 - vehicle_voice_recognition - INFO - 机动车个体声纹识别系统 - 训练模块
+2025-09-06 17:25:47,312 - vehicle_voice_recognition - INFO - 使用设备: cpu
+2025-09-06 17:25:47,312 - vehicle_voice_recognition - INFO - 个体化数据目录: vehicle_audio_data/individual_recognition/individual_vehicles
+2025-09-06 17:25:47,312 - vehicle_voice_recognition - INFO - 早停配置: patience=25, min_delta=0.001
+2025-09-06 17:25:47,312 - vehicle_voice_recognition - INFO - 音频数据增强器初始化完成，启用状态: True
+2025-09-06 17:25:47,312 - vehicle_voice_recognition - INFO - 音频预处理器初始化：sr=16000, n_fft=2048, n_mels=128
+2025-09-06 17:25:47,312 - vehicle_voice_recognition - INFO - 特征提取类型: ['mel']
+2025-09-06 17:25:47,312 - vehicle_voice_recognition - INFO - 数据增强: 启用
+2025-09-06 17:25:47,312 - vehicle_voice_recognition - INFO - 正在创建个体识别数据加载器...
+2025-09-06 17:25:47,488 - vehicle_voice_recognition - INFO - 训练集: 750 样本
+2025-09-06 17:25:47,488 - vehicle_voice_recognition - INFO - 验证集: 250 样本
+2025-09-06 17:25:47,488 - vehicle_voice_recognition - INFO - 测试集: 250 样本
+2025-09-06 17:25:47,488 - vehicle_voice_recognition - INFO - 个体数量: 125
+2025-09-06 17:25:47,488 - vehicle_voice_recognition - INFO - 个体映射: {'bus_000': 0, 'bus_001': 1, 'bus_002': 2, 'bus_003': 3, 'bus_004': 4, 'bus_005': 5, 'bus_006': 6, 'bus_007': 7, 'bus_008': 8, 'bus_009': 9, 'bus_010': 10, 'bus_011': 11, 'bus_012': 12, 'bus_013': 13, 'bus_014': 14, 'bus_015': 15, 'bus_016': 16, 'bus_017': 17, 'bus_018': 18, 'bus_019': 19, 'bus_020': 20, 'bus_021': 21, 'bus_022': 22, 'bus_023': 23, 'bus_024': 24, 'motorcycle_000': 25, 'motorcycle_001': 26, 'motorcycle_002': 27, 'motorcycle_003': 28, 'motorcycle_004': 29, 'motorcycle_005': 30, 'motorcycle_006': 31, 'motorcycle_007': 32, 'motorcycle_008': 33, 'motorcycle_009': 34, 'motorcycle_010': 35, 'motorcycle_011': 36, 'motorcycle_012': 37, 'motorcycle_013': 38, 'motorcycle_014': 39, 'motorcycle_015': 40, 'motorcycle_016': 41, 'motorcycle_017': 42, 'motorcycle_018': 43, 'motorcycle_019': 44, 'motorcycle_020': 45, 'motorcycle_021': 46, 'motorcycle_022': 47, 'motorcycle_023': 48, 'motorcycle_024': 49, 'sedan_000': 50, 'sedan_001': 51, 'sedan_002': 52, 'sedan_003': 53, 'sedan_004': 54, 'sedan_005': 55, 'sedan_006': 56, 'sedan_007': 57, 'sedan_008': 58, 'sedan_009': 59, 'sedan_010': 60, 'sedan_011': 61, 'sedan_012': 62, 'sedan_013': 63, 'sedan_014': 64, 'sedan_015': 65, 'sedan_016': 66, 'sedan_017': 67, 'sedan_018': 68, 'sedan_019': 69, 'sedan_020': 70, 'sedan_021': 71, 'sedan_022': 72, 'sedan_023': 73, 'sedan_024': 74, 'suv_000': 75, 'suv_001': 76, 'suv_002': 77, 'suv_003': 78, 'suv_004': 79, 'suv_005': 80, 'suv_006': 81, 'suv_007': 82, 'suv_008': 83, 'suv_009': 84, 'suv_010': 85, 'suv_011': 86, 'suv_012': 87, 'suv_013': 88, 'suv_014': 89, 'suv_015': 90, 'suv_016': 91, 'suv_017': 92, 'suv_018': 93, 'suv_019': 94, 'suv_020': 95, 'suv_021': 96, 'suv_022': 97, 'suv_023': 98, 'suv_024': 99, 'truck_000': 100, 'truck_001': 101, 'truck_002': 102, 'truck_003': 103, 'truck_004': 104, 'truck_005': 105, 'truck_006': 106, 'truck_007': 107, 'truck_008': 108, 'truck_009': 109, 'truck_010': 110, 'truck_011': 111, 'truck_012': 112, 'truck_013': 113, 'truck_014': 114, 'truck_015': 115, 'truck_016': 116, 'truck_017': 117, 'truck_018': 118, 'truck_019': 119, 'truck_020': 120, 'truck_021': 121, 'truck_022': 122, 'truck_023': 123, 'truck_024': 124}
+2025-09-06 17:25:47,492 - vehicle_voice_recognition - INFO - 模型参数量: 35,805
+2025-09-06 17:25:49,050 - vehicle_voice_recognition - INFO - 开始个体识别训练...
+2025-09-06 17:25:49,050 - vehicle_voice_recognition - INFO - 模型训练器初始化完成，设备: cpu
+2025-09-06 17:25:49,050 - vehicle_voice_recognition - INFO - 早停机制初始化: patience=25, min_delta=0.001, monitor=val_loss, mode=min
+2025-09-06 17:25:49,050 - vehicle_voice_recognition - INFO - 梯度裁剪器初始化: max_norm=0.5, norm_type=2.0
+2025-09-06 17:25:49,050 - vehicle_voice_recognition - INFO - 开始训练，共 100 个epoch
+2025-09-06 17:26:00,918 - vehicle_voice_recognition - INFO - Epoch 1/100 - Train Loss: 4.8711, Train Acc: 0.0080, Val Loss: 4.8201, Val Acc: 0.0080, LR: 0.000500, Time: 11.87s
+2025-09-06 17:26:00,924 - vehicle_voice_recognition - INFO - 保存最佳模型到 models/individual_best_model.pth
+2025-09-06 17:26:00,924 - vehicle_voice_recognition - INFO - 发现更好的 val_loss: 4.820145 (epoch 0)
+2025-09-06 17:26:09,349 - vehicle_voice_recognition - INFO - Epoch 2/100 - Train Loss: 4.8334, Train Acc: 0.0040, Val Loss: 4.8006, Val Acc: 0.0080, LR: 0.000500, Time: 8.24s
+2025-09-06 17:26:09,353 - vehicle_voice_recognition - INFO - 保存最佳模型到 models/individual_best_model.pth
+2025-09-06 17:26:09,353 - vehicle_voice_recognition - INFO - 发现更好的 val_loss: 4.800589 (epoch 0)
+2025-09-06 17:26:18,357 - vehicle_voice_recognition - INFO - Epoch 3/100 - Train Loss: 4.8099, Train Acc: 0.0067, Val Loss: 4.7641, Val Acc: 0.0200, LR: 0.000500, Time: 9.00s
+2025-09-06 17:26:18,362 - vehicle_voice_recognition - INFO - 保存最佳模型到 models/individual_best_model.pth
+2025-09-06 17:26:18,362 - vehicle_voice_recognition - INFO - 发现更好的 val_loss: 4.764070 (epoch 0)
+2025-09-06 17:26:26,203 - vehicle_voice_recognition - INFO - Epoch 4/100 - Train Loss: 4.7690, Train Acc: 0.0120, Val Loss: 4.6880, Val Acc: 0.0160, LR: 0.000500, Time: 7.84s
+2025-09-06 17:26:26,207 - vehicle_voice_recognition - INFO - 保存最佳模型到 models/individual_best_model.pth
+2025-09-06 17:26:26,207 - vehicle_voice_recognition - INFO - 发现更好的 val_loss: 4.687970 (epoch 0)
+2025-09-06 17:26:33,967 - vehicle_voice_recognition - INFO - Epoch 5/100 - Train Loss: 4.7053, Train Acc: 0.0120, Val Loss: 4.5624, Val Acc: 0.0240, LR: 0.000500, Time: 7.76s
+2025-09-06 17:26:33,974 - vehicle_voice_recognition - INFO - 保存最佳模型到 models/individual_best_model.pth
+2025-09-06 17:26:33,974 - vehicle_voice_recognition - INFO - 发现更好的 val_loss: 4.562450 (epoch 0)
+2025-09-06 17:26:42,090 - vehicle_voice_recognition - INFO - Epoch 6/100 - Train Loss: 4.5897, Train Acc: 0.0173, Val Loss: 4.4190, Val Acc: 0.0320, LR: 0.000500, Time: 8.12s
+2025-09-06 17:26:42,095 - vehicle_voice_recognition - INFO - 保存最佳模型到 models/individual_best_model.pth
+2025-09-06 17:26:42,095 - vehicle_voice_recognition - INFO - 发现更好的 val_loss: 4.418999 (epoch 0)

@@ -1,0 +1,29 @@
+2025-09-06 18:37:11,174 - vehicle_voice_recognition - INFO - 🔍 正在验证系统配置...
+2025-09-06 18:37:11,174 - vehicle_voice_recognition - INFO - ✅ 配置验证通过
+2025-09-06 18:37:12,743 - vehicle_voice_recognition - INFO - Using device: cpu
+2025-09-06 18:37:12,743 - vehicle_voice_recognition - INFO - Loaded label mapping with 25 classes
+2025-09-06 18:37:12,743 - vehicle_voice_recognition - INFO - 音频预处理器初始化：sr=16000, n_fft=2048, n_mels=128
+2025-09-06 18:37:12,743 - vehicle_voice_recognition - INFO - 特征提取类型: ['mel']
+2025-09-06 18:37:12,745 - vehicle_voice_recognition - INFO - 数据增强: 禁用
+2025-09-06 18:37:12,746 - vehicle_voice_recognition - INFO - Initialized audio preprocessor with config parameters
+2025-09-06 18:37:12,753 - vehicle_voice_recognition - INFO - 加载完整检查点文件
+2025-09-06 18:37:12,754 - vehicle_voice_recognition - INFO - Loaded model from models/individual_best_model.pth
+2025-09-06 18:37:12,754 - vehicle_voice_recognition - INFO - ✅ 个体识别推理引擎初始化完成
+2025-09-06 18:37:12,755 - vehicle_voice_recognition - INFO - 模型路径: models/individual_best_model.pth
+2025-09-06 18:37:12,755 - vehicle_voice_recognition - INFO - 支持的个体车辆数量: 25
+2025-09-06 18:37:12,755 - vehicle_voice_recognition - INFO - 个体车辆列表: ['sedan_000', 'sedan_001', 'sedan_002', 'sedan_003', 'sedan_004', 'suv_000', 'suv_001', 'suv_002', 'suv_003', 'suv_004', 'truck_000', 'truck_001', 'truck_002', 'truck_003', 'truck_004', 'motorcycle_000', 'motorcycle_001', 'motorcycle_002', 'motorcycle_003', 'motorcycle_004', 'bus_000', 'bus_001', 'bus_002', 'bus_003', 'bus_004']
+2025-09-06 18:37:12,755 - vehicle_voice_recognition - INFO - 正在分析音频进行个体识别: vehicle_audio_data\individual_recognition\individual_vehicles\bus_003\bus_003_sample_002.wav
+2025-09-06 18:37:14,509 - vehicle_voice_recognition - INFO - 预测结果: truck_002, 置信度: 0.1022 (vehicle_audio_data\individual_recognition\individual_vehicles\bus_003\bus_003_sample_002.wav)
+2025-09-06 18:37:14,509 - vehicle_voice_recognition - INFO - 🎯 个体识别结果:
+2025-09-06 18:37:14,509 - vehicle_voice_recognition - INFO -    个体车辆: bus_003
+2025-09-06 18:37:14,509 - vehicle_voice_recognition - INFO -    车辆类型: bus
+2025-09-06 18:37:14,509 - vehicle_voice_recognition - INFO -    个体编号: 003
+2025-09-06 18:37:14,511 - vehicle_voice_recognition - INFO -    置信度: 0.1022
+2025-09-06 18:37:14,511 - vehicle_voice_recognition - INFO -    推理时间: 1.754秒
+2025-09-06 18:37:14,511 - vehicle_voice_recognition - INFO - 音频预处理器初始化：sr=16000, n_fft=2048, n_mels=128
+2025-09-06 18:37:14,511 - vehicle_voice_recognition - INFO - 特征提取类型: ['mel']
+2025-09-06 18:37:14,511 - vehicle_voice_recognition - INFO - 数据增强: 禁用
+2025-09-06 18:37:15,803 - vehicle_voice_recognition - INFO - 音频预处理器初始化：sr=16000, n_fft=2048, n_mels=128
+2025-09-06 18:37:15,803 - vehicle_voice_recognition - INFO - 特征提取类型: ['mel']
+2025-09-06 18:37:15,803 - vehicle_voice_recognition - INFO - 数据增强: 禁用
+2025-09-06 18:37:16,513 - vehicle_voice_recognition - INFO - 📊 可视化结果已保存

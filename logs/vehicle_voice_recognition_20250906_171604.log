@@ -1,0 +1,39 @@
+2025-09-06 17:16:06,223 - vehicle_voice_recognition - INFO - 🚀 开始生成个体识别数据集
+2025-09-06 17:16:06,223 - vehicle_voice_recognition - INFO - 开始生成个体识别数据集到: C:\Users\33016\Downloads\vehicile_voice_recoginition-vehicle_voice_recognition\vehicile_voice_recoginition-vehicle_voice_recognition\vehicle_audio_data\individual_recognition
+2025-09-06 17:16:06,226 - vehicle_voice_recognition - INFO - 生成 sedan 类型的个体音频...
+2025-09-06 17:16:06,327 - vehicle_voice_recognition - INFO -   已完成个体 sedan_000
+2025-09-06 17:16:06,711 - vehicle_voice_recognition - INFO -   已完成个体 sedan_005
+2025-09-06 17:16:07,117 - vehicle_voice_recognition - INFO -   已完成个体 sedan_010
+2025-09-06 17:16:07,518 - vehicle_voice_recognition - INFO -   已完成个体 sedan_015
+2025-09-06 17:16:07,911 - vehicle_voice_recognition - INFO -   已完成个体 sedan_020
+2025-09-06 17:16:08,230 - vehicle_voice_recognition - INFO - 生成 suv 类型的个体音频...
+2025-09-06 17:16:08,313 - vehicle_voice_recognition - INFO -   已完成个体 suv_000
+2025-09-06 17:16:08,727 - vehicle_voice_recognition - INFO -   已完成个体 suv_005
+2025-09-06 17:16:09,137 - vehicle_voice_recognition - INFO -   已完成个体 suv_010
+2025-09-06 17:16:09,564 - vehicle_voice_recognition - INFO -   已完成个体 suv_015
+2025-09-06 17:16:09,991 - vehicle_voice_recognition - INFO -   已完成个体 suv_020
+2025-09-06 17:16:10,337 - vehicle_voice_recognition - INFO - 生成 truck 类型的个体音频...
+2025-09-06 17:16:10,431 - vehicle_voice_recognition - INFO -   已完成个体 truck_000
+2025-09-06 17:16:10,987 - vehicle_voice_recognition - INFO -   已完成个体 truck_005
+2025-09-06 17:16:11,437 - vehicle_voice_recognition - INFO -   已完成个体 truck_010
+2025-09-06 17:16:11,877 - vehicle_voice_recognition - INFO -   已完成个体 truck_015
+2025-09-06 17:16:12,314 - vehicle_voice_recognition - INFO -   已完成个体 truck_020
+2025-09-06 17:16:12,657 - vehicle_voice_recognition - INFO - 生成 motorcycle 类型的个体音频...
+2025-09-06 17:16:12,747 - vehicle_voice_recognition - INFO -   已完成个体 motorcycle_000
+2025-09-06 17:16:13,187 - vehicle_voice_recognition - INFO -   已完成个体 motorcycle_005
+2025-09-06 17:16:13,630 - vehicle_voice_recognition - INFO -   已完成个体 motorcycle_010
+2025-09-06 17:16:14,069 - vehicle_voice_recognition - INFO -   已完成个体 motorcycle_015
+2025-09-06 17:16:14,495 - vehicle_voice_recognition - INFO -   已完成个体 motorcycle_020
+2025-09-06 17:16:14,842 - vehicle_voice_recognition - INFO - 生成 bus 类型的个体音频...
+2025-09-06 17:16:14,932 - vehicle_voice_recognition - INFO -   已完成个体 bus_000
+2025-09-06 17:16:15,334 - vehicle_voice_recognition - INFO -   已完成个体 bus_005
+2025-09-06 17:16:15,733 - vehicle_voice_recognition - INFO -   已完成个体 bus_010
+2025-09-06 17:16:16,173 - vehicle_voice_recognition - INFO -   已完成个体 bus_015
+2025-09-06 17:16:16,598 - vehicle_voice_recognition - INFO -   已完成个体 bus_020
+2025-09-06 17:16:16,927 - vehicle_voice_recognition - INFO - ✅ 个体识别数据集生成完成
+2025-09-06 17:16:16,927 - vehicle_voice_recognition - INFO -    - 总个体数: 125
+2025-09-06 17:16:16,927 - vehicle_voice_recognition - INFO -    - 总样本数: 1250
+2025-09-06 17:16:16,927 - vehicle_voice_recognition - INFO -    - 注册表: C:\Users\33016\Downloads\vehicile_voice_recoginition-vehicle_voice_recognition\vehicile_voice_recoginition-vehicle_voice_recognition\vehicle_audio_data\individual_recognition\vehicle_registry.json
+2025-09-06 17:16:16,927 - vehicle_voice_recognition - INFO -    - 标签映射: C:\Users\33016\Downloads\vehicile_voice_recoginition-vehicle_voice_recognition\vehicile_voice_recoginition-vehicle_voice_recognition\vehicle_audio_data\individual_recognition\individual_label_mapping.json
+2025-09-06 17:16:16,927 - vehicle_voice_recognition - INFO - ✅ 个体识别数据集生成完成
+2025-09-06 17:16:16,927 - vehicle_voice_recognition - INFO - 个体识别数据集生成成功！
