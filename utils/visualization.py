@@ -99,10 +99,6 @@ def plot_training_history(history, save_path='results/training_history.png',
     plt.close()
     
     logger.info(f"训练历史图表已保存到: {save_path}")
-    plt.savefig(save_path, dpi=300, bbox_inches='tight')
-    plt.close()
-    
-    logger.info(f"Training history plot saved to {save_path}")
 
 
 def plot_confusion_matrix(y_true, y_pred, class_names, save_path='results/confusion_matrix.png',
@@ -381,3 +377,287 @@ def plot_audio_features(audio_path_or_data, preprocessor_or_sr=None, save_path='
     plt.close()
     
     logger.info(f"Audio features plot saved to {save_path}")
+
+
+def generate_audio_visualizations(audio_path, preprocessor, save_dir='results/audio_analysis'):
+    """生成音频特征可视化（从individual_visualization.py整合）
+    
+    Args:
+        audio_path: 音频文件路径
+        preprocessor: 音频预处理器
+        save_dir: 保存目录
+    """
+    os.makedirs(save_dir, exist_ok=True)
+    
+    try:
+        # 加载音频数据
+        audio_data = preprocessor.load_audio(audio_path)
+        if audio_data is None:
+            logger.error(f"无法加载音频文件: {audio_path}")
+            return
+        
+        sr = preprocessor.sample_rate
+        
+        # 生成各种可视化
+        plot_audio_waveform(audio_data, sr, 
+                           save_path=os.path.join(save_dir, 'waveform.png'),
+                           title=f'Audio Waveform - {os.path.basename(audio_path)}')
+        
+        plot_spectrogram(audio_data, sr,
+                        save_path=os.path.join(save_dir, 'spectrogram.png'),
+                        title=f'Spectrogram - {os.path.basename(audio_path)}')
+        
+        plot_mel_spectrogram(audio_data, sr,
+                            save_path=os.path.join(save_dir, 'mel_spectrogram.png'),
+                            title=f'Mel Spectrogram - {os.path.basename(audio_path)}')
+        
+        # 综合特征分析
+        plot_audio_features(audio_data, sr,
+                           save_path=os.path.join(save_dir, 'audio_features.png'),
+                           title=f'Audio Features Analysis - {os.path.basename(audio_path)}',
+                           show_mfcc=True, show_chroma=True)
+        
+        logger.info(f"音频可视化已保存到: {save_dir}")
+        
+    except Exception as e:
+        logger.error(f"生成音频可视化时出错: {str(e)}")
+
+
+def plot_inference_results(predictions, true_labels, class_names, confidence_scores=None,
+                          save_path='results/inference_results.png', figsize=(12, 8)):
+    """绘制推理结果（从individual_visualization.py整合）
+    
+    Args:
+        predictions: 预测结果列表
+        true_labels: 真实标签列表
+        class_names: 类别名称列表
+        confidence_scores: 置信度分数列表（可选）
+        save_path: 保存路径
+        figsize: 图像大小
+    """
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    
+    fig, axes = plt.subplots(2, 2, figsize=figsize)
+    fig.suptitle('Inference Results Analysis', fontsize=16)
+    
+    # 1. 混淆矩阵
+    cm = confusion_matrix(true_labels, predictions)
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
+                xticklabels=class_names, yticklabels=class_names, ax=axes[0, 0])
+    axes[0, 0].set_title('Confusion Matrix')
+    axes[0, 0].set_xlabel('Predicted')
+    axes[0, 0].set_ylabel('True')
+    
+    # 2. 预测分布
+    unique_preds, pred_counts = np.unique(predictions, return_counts=True)
+    axes[0, 1].bar([class_names[i] for i in unique_preds], pred_counts, color='skyblue')
+    axes[0, 1].set_title('Prediction Distribution')
+    axes[0, 1].set_xlabel('Predicted Class')
+    axes[0, 1].set_ylabel('Count')
+    plt.setp(axes[0, 1].get_xticklabels(), rotation=45)
+    
+    # 3. 真实标签分布
+    unique_true, true_counts = np.unique(true_labels, return_counts=True)
+    axes[1, 0].bar([class_names[i] for i in unique_true], true_counts, color='lightcoral')
+    axes[1, 0].set_title('True Label Distribution')
+    axes[1, 0].set_xlabel('True Class')
+    axes[1, 0].set_ylabel('Count')
+    plt.setp(axes[1, 0].get_xticklabels(), rotation=45)
+    
+    # 4. 置信度分布（如果提供）
+    if confidence_scores is not None:
+        axes[1, 1].hist(confidence_scores, bins=20, color='lightgreen', alpha=0.7)
+        axes[1, 1].set_title('Confidence Score Distribution')
+        axes[1, 1].set_xlabel('Confidence Score')
+        axes[1, 1].set_ylabel('Frequency')
+        axes[1, 1].axvline(np.mean(confidence_scores), color='red', linestyle='--', 
+                          label=f'Mean: {np.mean(confidence_scores):.3f}')
+        axes[1, 1].legend()
+    else:
+        # 如果没有置信度，显示准确率
+        accuracy = np.mean(np.array(predictions) == np.array(true_labels))
+        axes[1, 1].text(0.5, 0.5, f'Accuracy\n{accuracy:.3f}', 
+                        ha='center', va='center', fontsize=24, 
+                        transform=axes[1, 1].transAxes)
+        axes[1, 1].set_title('Overall Accuracy')
+        axes[1, 1].set_xticks([])
+        axes[1, 1].set_yticks([])
+    
+    plt.tight_layout()
+    plt.savefig(save_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    logger.info(f"Inference results plot saved to {save_path}")
+
+
+def generate_prediction_visualizations(predictions, probabilities, class_names, 
+                                     save_dir='results/predictions', top_k=5):
+    """生成预测结果可视化（从individual_visualization.py整合）
+    
+    Args:
+        predictions: 预测结果列表
+        probabilities: 预测概率矩阵
+        class_names: 类别名称列表
+        save_dir: 保存目录
+        top_k: 显示前k个预测结果
+    """
+    os.makedirs(save_dir, exist_ok=True)
+    
+    # 1. 预测概率分布
+    fig, axes = plt.subplots(2, 2, figsize=(15, 10))
+    fig.suptitle('Prediction Analysis', fontsize=16)
+    
+    # 平均预测概率
+    mean_probs = np.mean(probabilities, axis=0)
+    axes[0, 0].bar(class_names, mean_probs, color='skyblue')
+    axes[0, 0].set_title('Average Prediction Probabilities')
+    axes[0, 0].set_xlabel('Class')
+    axes[0, 0].set_ylabel('Average Probability')
+    plt.setp(axes[0, 0].get_xticklabels(), rotation=45)
+    
+    # 预测置信度分布
+    max_probs = np.max(probabilities, axis=1)
+    axes[0, 1].hist(max_probs, bins=20, color='lightgreen', alpha=0.7)
+    axes[0, 1].set_title('Prediction Confidence Distribution')
+    axes[0, 1].set_xlabel('Max Probability')
+    axes[0, 1].set_ylabel('Frequency')
+    axes[0, 1].axvline(np.mean(max_probs), color='red', linestyle='--',
+                      label=f'Mean: {np.mean(max_probs):.3f}')
+    axes[0, 1].legend()
+    
+    # 类别预测频次
+    unique_preds, pred_counts = np.unique(predictions, return_counts=True)
+    axes[1, 0].bar([class_names[i] for i in unique_preds], pred_counts, color='lightcoral')
+    axes[1, 0].set_title('Prediction Frequency')
+    axes[1, 0].set_xlabel('Predicted Class')
+    axes[1, 0].set_ylabel('Count')
+    plt.setp(axes[1, 0].get_xticklabels(), rotation=45)
+    
+    # Top-K预测准确性
+    if len(probabilities) > 0:
+        top_k_indices = np.argsort(probabilities, axis=1)[:, -top_k:]
+        top_k_probs = np.sort(probabilities, axis=1)[:, -top_k:]
+        
+        # 显示前几个样本的top-k预测
+        sample_indices = np.random.choice(len(predictions), min(5, len(predictions)), replace=False)
+        
+        axes[1, 1].set_title(f'Top-{top_k} Predictions (Sample)')
+        y_pos = np.arange(len(sample_indices))
+        
+        for i, sample_idx in enumerate(sample_indices):
+            top_classes = [class_names[idx] for idx in top_k_indices[sample_idx]]
+            top_probs = top_k_probs[sample_idx]
+            
+            # 只显示最高的预测
+            axes[1, 1].barh(i, top_probs[-1], color='gold')
+            axes[1, 1].text(top_probs[-1]/2, i, f'{top_classes[-1]}\n{top_probs[-1]:.3f}',
+                           ha='center', va='center', fontsize=8)
+        
+        axes[1, 1].set_yticks(y_pos)
+        axes[1, 1].set_yticklabels([f'Sample {i+1}' for i in range(len(sample_indices))])
+        axes[1, 1].set_xlabel('Probability')
+    
+    plt.tight_layout()
+    plt.savefig(os.path.join(save_dir, 'prediction_analysis.png'), dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    logger.info(f"Prediction visualizations saved to {save_dir}")
+
+
+def generate_summary_visualization(training_history, test_results, model_info,
+                                 save_path='results/training_summary.png', figsize=(16, 10)):
+    """生成训练总结可视化（从individual_visualization.py整合）
+    
+    Args:
+        training_history: 训练历史字典
+        test_results: 测试结果字典
+        model_info: 模型信息字典
+        save_path: 保存路径
+        figsize: 图像大小
+    """
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    
+    fig = plt.figure(figsize=figsize)
+    gs = fig.add_gridspec(3, 3, hspace=0.3, wspace=0.3)
+    
+    # 1. 训练损失曲线
+    ax1 = fig.add_subplot(gs[0, 0])
+    if 'train_loss' in training_history and 'val_loss' in training_history:
+        ax1.plot(training_history['train_loss'], label='Train Loss', color='blue')
+        ax1.plot(training_history['val_loss'], label='Val Loss', color='orange')
+        ax1.set_title('Training Loss')
+        ax1.set_xlabel('Epoch')
+        ax1.set_ylabel('Loss')
+        ax1.legend()
+        ax1.grid(True, alpha=0.3)
+    
+    # 2. 训练准确率曲线
+    ax2 = fig.add_subplot(gs[0, 1])
+    if 'train_acc' in training_history and 'val_acc' in training_history:
+        ax2.plot(training_history['train_acc'], label='Train Acc', color='blue')
+        ax2.plot(training_history['val_acc'], label='Val Acc', color='orange')
+        ax2.set_title('Training Accuracy')
+        ax2.set_xlabel('Epoch')
+        ax2.set_ylabel('Accuracy')
+        ax2.legend()
+        ax2.grid(True, alpha=0.3)
+    
+    # 3. 学习率曲线
+    ax3 = fig.add_subplot(gs[0, 2])
+    if 'learning_rates' in training_history:
+        ax3.plot(training_history['learning_rates'], color='green')
+        ax3.set_title('Learning Rate')
+        ax3.set_xlabel('Epoch')
+        ax3.set_ylabel('Learning Rate')
+        ax3.set_yscale('log')
+        ax3.grid(True, alpha=0.3)
+    
+    # 4. 测试结果指标
+    ax4 = fig.add_subplot(gs[1, :])
+    if test_results:
+        metrics = ['accuracy', 'precision', 'recall', 'f1_score']
+        values = [test_results.get(metric, 0) for metric in metrics]
+        colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
+        
+        bars = ax4.bar(metrics, values, color=colors, alpha=0.7)
+        ax4.set_title('Test Results', fontsize=14)
+        ax4.set_ylabel('Score')
+        ax4.set_ylim(0, 1)
+        
+        # 添加数值标签
+        for bar, value in zip(bars, values):
+            height = bar.get_height()
+            ax4.text(bar.get_x() + bar.get_width()/2., height + 0.01,
+                    f'{value:.3f}', ha='center', va='bottom')
+        
+        ax4.grid(True, alpha=0.3)
+    
+    # 5. 模型信息文本
+    ax5 = fig.add_subplot(gs[2, :])
+    ax5.axis('off')
+    
+    info_text = "Model Information:\n"
+    if model_info:
+        for key, value in model_info.items():
+            info_text += f"{key}: {value}\n"
+    
+    # 添加训练总结
+    if training_history:
+        best_val_acc = max(training_history.get('val_acc', [0]))
+        best_val_loss = min(training_history.get('val_loss', [float('inf')]))
+        total_epochs = len(training_history.get('train_loss', []))
+        
+        info_text += f"\nTraining Summary:\n"
+        info_text += f"Total Epochs: {total_epochs}\n"
+        info_text += f"Best Validation Accuracy: {best_val_acc:.4f}\n"
+        info_text += f"Best Validation Loss: {best_val_loss:.4f}\n"
+    
+    ax5.text(0.05, 0.95, info_text, transform=ax5.transAxes, fontsize=10,
+            verticalalignment='top', fontfamily='monospace',
+            bbox=dict(boxstyle='round', facecolor='lightgray', alpha=0.5))
+    
+    plt.suptitle('Training Summary Report', fontsize=18, y=0.98)
+    plt.savefig(save_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    logger.info(f"Training summary visualization saved to {save_path}")

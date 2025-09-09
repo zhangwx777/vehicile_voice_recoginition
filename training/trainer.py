@@ -221,13 +221,17 @@ class ModelTrainer:
     def save_training_plot(self, save_path='training_history.png'):
         """保存训练历史图表"""
         if len(self.train_losses) > 0:
+            history_data = {
+                'train_loss': self.train_losses,
+                'val_loss': self.val_losses,
+                'train_acc': self.train_accuracies,
+                'val_acc': self.val_accuracies,
+                'learning_rates': self.learning_rates
+            }
             plot_training_history(
-                self.train_losses,
-                self.val_losses,
-                self.train_accuracies,
-                self.val_accuracies,
-                self.learning_rates,
-                save_path
+                history_data,
+                save_path=save_path,
+                title='个体识别训练历史'
             )
             logger.info(f"训练历史图表已保存到 {save_path}")
         else:

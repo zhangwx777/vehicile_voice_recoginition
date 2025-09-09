@@ -1,3 +1,0 @@
-2025-09-06 16:39:05,465 - vehicle_voice_recognition - INFO - 🎯 车载语音个体识别系统 - 训练执行器
-2025-09-06 16:39:05,465 - vehicle_voice_recognition - ERROR - ❌ 个体化数据目录不存在: vehicle_audio_data/individual_vehicles
-2025-09-06 16:39:05,465 - vehicle_voice_recognition - INFO - 请先运行: python generate_individual_dataset.py

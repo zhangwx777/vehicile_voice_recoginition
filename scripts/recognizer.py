@@ -8,7 +8,7 @@ from core.model import CNNModel
 from core.settings import MODEL_CONFIG, AUDIO_CONFIG, PATH_CONFIG
 from core.logger import logger
 from utils.visualization import plot_audio_features
-from utils.individual_visualization import plot_inference_results
+from utils.visualization import plot_inference_results
 
 
 class VehicleRecognizer:

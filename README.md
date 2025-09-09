@@ -25,7 +25,7 @@ vehicle_voice_recognition/
 ├── data/                    # 数据处理模块
 │   ├── preprocessor.py     # 音频预处理
 │   ├── loader.py           # 数据加载器
-│   ├── individual_loader.py # 个体数据加载
+
 │   ├── label_manager.py    # 标签管理
 │   └── augmentation.py     # 数据增强
 ├── training/                # 训练模块
@@ -34,13 +34,13 @@ vehicle_voice_recognition/
 │   └── individual_monitor.py # 训练监控
 ├── evaluation/              # 评估模块
 │   ├── evaluator.py        # 模型评估器
-│   └── model_evaluation.py # 评估脚本
+
 ├── scripts/                 # 脚本模块
 │   ├── individual_inference.py # 推理脚本
 │   └── recognizer.py       # 识别器
 ├── utils/                   # 工具模块
 │   ├── visualization.py    # 可视化工具
-│   ├── individual_visualization.py # 个体可视化
+
 │   └── helpers.py          # 辅助函数
 ├── models/                  # 模型文件
 ├── results/                 # 结果输出
@@ -126,7 +126,7 @@ python -m training.individual_monitor
 
 ```bash
 # 评估模型性能
-python -m evaluation.model_evaluation
+python -m evaluation.evaluator
 ```
 
 ## 输出说明

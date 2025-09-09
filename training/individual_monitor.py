@@ -170,7 +170,7 @@ def execute_individual_training():
         # 导入必要模块
         from core.settings import AUDIO_CONFIG, TRAINING_CONFIG, PATH_CONFIG, MODEL_CONFIG, DEVICE_CONFIG
         from data.preprocessor import AudioPreprocessor
-        from data.individual_loader import create_individual_data_loaders
+        from data.loader import create_individual_data_loaders
         from core.model import CNNModel
         from training.trainer import ModelTrainer
         from evaluation.evaluator import ModelEvaluator
@@ -257,6 +257,12 @@ def execute_individual_training():
             save_checkpoints=True
         )
         
+        # 保存训练历史可视化
+        logger.info("📊 生成训练历史可视化...")
+        training_plot_path = os.path.join(individual_results_dir, 'training_history.png')
+        trainer.save_training_plot(training_plot_path)
+        logger.info(f"训练历史图表已保存至: {training_plot_path}")
+        
         # 评估模型
         logger.info("开始个体识别评估...")
         evaluator = ModelEvaluator(model)
@@ -286,22 +292,61 @@ def execute_individual_training():
         # 自动生成可视化结果
         logger.info("\n🎨 开始生成个体识别可视化结果...")
         try:
-            from utils.individual_visualization import generate_audio_visualizations, generate_prediction_visualizations
+            from utils.visualization import generate_audio_visualizations, generate_prediction_visualizations
             
-            # 生成音频特征可视化
-            generate_audio_visualizations()
+            # 获取一个示例音频文件用于可视化
+            sample_audio = None
+            for root, dirs, files in os.walk(individual_data_dir):
+                for file in files:
+                    if file.endswith(('.wav', '.mp3')):
+                        sample_audio = os.path.join(root, file)
+                        break
+                if sample_audio:
+                    break
             
-            # 生成预测结果可视化
-            generate_prediction_visualizations()
-            
-            logger.info("✅ 个体识别可视化结果生成完成!")
-            logger.info("📁 可视化文件位置:")
-            logger.info("   - results/audio_visualizations/")
-            logger.info("   - results/prediction_visualizations/")
+            if sample_audio:
+                # 生成音频特征可视化
+                generate_audio_visualizations(sample_audio, preprocessor, 'results/audio_visualizations')
+                
+                # 生成预测结果可视化（使用测试集的一些样本）
+                if hasattr(test_loader.dataset, 'samples') and len(test_loader.dataset.samples) > 0:
+                    # 获取前几个测试样本进行可视化
+                    test_samples = test_loader.dataset.samples[:5]
+                    predictions = []
+                    probabilities = []
+                    
+                    model.eval()
+                    with torch.no_grad():
+                        for sample_path, true_label in test_samples:
+                            # 加载并预处理音频
+                            audio_data = preprocessor.load_audio(sample_path)
+                            if audio_data is not None:
+                                features = preprocessor.extract_features(audio_data)
+                                if features is not None:
+                                    features_tensor = torch.FloatTensor(features).unsqueeze(0)
+                                    output = model(features_tensor)
+                                    prob = torch.softmax(output, dim=1)
+                                    pred = torch.argmax(output, dim=1).item()
+                                    predictions.append(pred)
+                                    probabilities.append(prob.squeeze().numpy())
+                    
+                    if predictions:
+                        class_names = list(label_mapping.keys())
+                        generate_prediction_visualizations(
+                            predictions, probabilities, class_names,
+                            save_dir='results/prediction_visualizations'
+                        )
+                
+                logger.info("✅ 个体识别可视化结果生成完成!")
+                logger.info("📁 可视化文件位置:")
+                logger.info("   - results/audio_visualizations/")
+                logger.info("   - results/prediction_visualizations/")
+            else:
+                logger.warning("⚠️  未找到音频文件用于可视化")
             
         except Exception as e:
             logger.warning(f"⚠️  可视化生成失败: {str(e)}")
-            logger.info("💡 您可以稍后手动运行: python generate_visualizations.py")
+            logger.info("💡 您可以稍后手动运行可视化脚本")
         
         return True
         
@@ -341,7 +386,7 @@ def main():
     
     if success:
         logger.info("🎉 个体识别训练流程完成!")
-        logger.info("下一步: 运行 python vehicle_inference.py <audio_file> 进行个体识别测试")
+        logger.info("下一步: 运行 python -m scripts.individual_inference --audio <audio_file> 进行个体识别测试")
     else:
         logger.error("💥 个体识别训练流程失败!")
     

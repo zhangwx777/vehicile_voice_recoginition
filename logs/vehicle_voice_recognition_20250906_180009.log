@@ -1,5 +1,0 @@
-2025-09-06 18:00:09,931 - vehicle_voice_recognition - INFO - 🔍 正在验证系统配置...
-2025-09-06 18:00:09,932 - vehicle_voice_recognition - INFO - ✅ 配置验证通过
-2025-09-06 18:00:11,141 - vehicle_voice_recognition - INFO - Using device: cpu
-2025-09-06 18:00:11,141 - vehicle_voice_recognition - ERROR - 加载标签映射未知错误: unhashable type: 'dict'
-2025-09-06 18:00:11,141 - vehicle_voice_recognition - ERROR - 个体识别推理失败: unhashable type: 'dict'

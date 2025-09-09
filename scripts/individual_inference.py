@@ -111,7 +111,7 @@ class IndividualInferenceEngine:
                 try:
                     # 导入可视化模块
                     from utils.visualization import plot_audio_features
-                    from utils.individual_visualization import plot_inference_results
+                    from utils.visualization import plot_inference_results
                     from data.preprocessor import AudioPreprocessor
                     from core.settings import AUDIO_CONFIG
                     import numpy as np
