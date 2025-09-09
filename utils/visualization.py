@@ -12,9 +12,10 @@ import logging
 # 设置日志
 logger = logging.getLogger(__name__)
 
-# 设置matplotlib使用英文字体，避免中文字体缺失警告
-plt.rcParams["font.family"] = ["DejaVu Sans", "Arial", "sans-serif"]
+# 设置matplotlib字体，支持中文显示
+plt.rcParams["font.sans-serif"] = ["SimHei", "Microsoft YaHei", "DejaVu Sans", "Arial", "sans-serif"]
 plt.rcParams["axes.unicode_minus"] = False  # Fix minus sign display
+plt.rcParams["font.family"] = "sans-serif"
 
 
 def plot_training_history(history, save_path='results/training_history.png', 
@@ -421,6 +422,130 @@ def generate_audio_visualizations(audio_path, preprocessor, save_dir='results/au
         
     except Exception as e:
         logger.error(f"生成音频可视化时出错: {str(e)}")
+
+
+def plot_single_inference_result(predicted_label, confidence, all_probabilities, class_names, 
+                                audio_filename, save_path='results/single_inference.png', 
+                                figsize=(14, 10)):
+    """绘制单个推理结果的直观可视化
+    
+    Args:
+        predicted_label: 预测的标签（字符串）
+        confidence: 预测置信度
+        all_probabilities: 所有类别的概率分布
+        class_names: 类别名称列表
+        audio_filename: 音频文件名
+        save_path: 保存路径
+        figsize: 图像大小
+    """
+    os.makedirs(os.path.dirname(save_path), exist_ok=True)
+    
+    fig = plt.figure(figsize=figsize)
+    gs = fig.add_gridspec(3, 2, height_ratios=[1, 2, 1], hspace=0.3, wspace=0.3)
+    
+    # 主标题
+    fig.suptitle(f'车辆个体识别结果 - {audio_filename}', fontsize=18, fontweight='bold')
+    
+    # 1. 预测结果展示（大标题区域）
+    ax_result = fig.add_subplot(gs[0, :])
+    ax_result.text(0.5, 0.7, f'预测结果: {predicted_label}', 
+                   ha='center', va='center', fontsize=24, fontweight='bold', 
+                   color='darkblue', transform=ax_result.transAxes)
+    ax_result.text(0.5, 0.3, f'置信度: {confidence:.4f} ({confidence*100:.2f}%)', 
+                   ha='center', va='center', fontsize=18, 
+                   color='darkgreen' if confidence > 0.5 else 'darkorange',
+                   transform=ax_result.transAxes)
+    ax_result.set_xlim(0, 1)
+    ax_result.set_ylim(0, 1)
+    ax_result.axis('off')
+    
+    # 2. Top-5 预测概率（左侧）
+    ax_top5 = fig.add_subplot(gs[1, 0])
+    top5_indices = np.argsort(all_probabilities)[-5:][::-1]
+    top5_probs = all_probabilities[top5_indices]
+    top5_labels = [class_names[i] for i in top5_indices]
+    
+    colors = ['#2E8B57' if i == 0 else '#4682B4' if i == 1 else '#708090' for i in range(5)]
+    bars = ax_top5.barh(range(5), top5_probs, color=colors)
+    ax_top5.set_yticks(range(5))
+    ax_top5.set_yticklabels(top5_labels)
+    ax_top5.set_xlabel('预测概率')
+    ax_top5.set_title('Top-5 预测结果', fontsize=14, fontweight='bold')
+    ax_top5.grid(axis='x', alpha=0.3)
+    
+    # 在柱状图上添加数值标签
+    for i, (bar, prob) in enumerate(zip(bars, top5_probs)):
+        ax_top5.text(bar.get_width() + 0.01, bar.get_y() + bar.get_height()/2, 
+                     f'{prob:.4f}', va='center', fontsize=10)
+    
+    # 3. 车辆类型分析（右侧）
+    ax_vehicle = fig.add_subplot(gs[1, 1])
+    
+    # 按车辆类型分组概率
+    vehicle_types = ['sedan', 'suv', 'truck', 'motorcycle', 'bus']
+    type_probs = {vtype: 0 for vtype in vehicle_types}
+    
+    for i, prob in enumerate(all_probabilities):
+        class_name = class_names[i]
+        for vtype in vehicle_types:
+            if vtype in class_name:
+                type_probs[vtype] += prob
+                break
+    
+    type_names = list(type_probs.keys())
+    type_values = list(type_probs.values())
+    type_colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7']
+    
+    # 只显示非零的类型
+    filtered_types = [(name, value, color) for name, value, color in zip(type_names, type_values, type_colors) if value > 0.001]
+    if filtered_types:
+        f_names, f_values, f_colors = zip(*filtered_types)
+        wedges, texts, autotexts = ax_vehicle.pie(f_values, labels=f_names, 
+                                                  colors=f_colors, autopct='%1.2f%%',
+                                                  startangle=90, 
+                                                  textprops={'fontsize': 10},
+                                                  pctdistance=0.85,
+                                                  labeldistance=1.1)
+        # 调整标签字体大小
+        for text in texts:
+            text.set_fontsize(9)
+        for autotext in autotexts:
+            autotext.set_fontsize(8)
+            autotext.set_color('white')
+            autotext.set_fontweight('bold')
+    else:
+        ax_vehicle.text(0.5, 0.5, '无数据', ha='center', va='center', transform=ax_vehicle.transAxes)
+    
+    ax_vehicle.set_title('车辆类型概率分布', fontsize=14, fontweight='bold')
+    
+    # 4. 置信度评估（底部）
+    ax_confidence = fig.add_subplot(gs[2, :])
+    
+    # 置信度条形图
+    conf_colors = ['red' if confidence < 0.3 else 'orange' if confidence < 0.7 else 'green']
+    ax_confidence.barh([0], [confidence], color=conf_colors, height=0.3)
+    ax_confidence.set_xlim(0, 1)
+    ax_confidence.set_ylim(-0.5, 0.5)
+    ax_confidence.set_xlabel('置信度')
+    ax_confidence.set_yticks([])
+    
+    # 添加置信度区间标记
+    ax_confidence.axvline(0.3, color='red', linestyle='--', alpha=0.7, label='低置信度')
+    ax_confidence.axvline(0.7, color='orange', linestyle='--', alpha=0.7, label='中等置信度')
+    ax_confidence.text(0.15, 0, '低', ha='center', va='center', fontweight='bold', color='red')
+    ax_confidence.text(0.5, 0, '中', ha='center', va='center', fontweight='bold', color='orange')
+    ax_confidence.text(0.85, 0, '高', ha='center', va='center', fontweight='bold', color='green')
+    
+    # 添加当前置信度标记
+    ax_confidence.text(confidence, 0.2, f'{confidence:.4f}', ha='center', va='bottom', 
+                       fontweight='bold', fontsize=12)
+    
+    ax_confidence.set_title('置信度评估', fontsize=14, fontweight='bold')
+    
+    plt.savefig(save_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    logger.info(f"Single inference result plot saved to {save_path}")
 
 
 def plot_inference_results(predictions, true_labels, class_names, confidence_scores=None,

@@ -110,11 +110,11 @@ class IndividualInferenceEngine:
             if visualize:
                 try:
                     # 导入可视化模块
+                    import numpy as np
                     from utils.visualization import plot_audio_features
                     from utils.visualization import plot_inference_results
                     from data.preprocessor import AudioPreprocessor
                     from core.settings import AUDIO_CONFIG
-                    import numpy as np
                     
                     # 初始化预处理器用于可视化
                     vis_config = AUDIO_CONFIG.copy()
@@ -141,10 +141,18 @@ class IndividualInferenceEngine:
                     # 使用模型返回的完整概率分布
                     predictions = all_probabilities if all_probabilities is not None else np.zeros(len(self.label_to_individual))
                     
-                    plot_inference_results(
-                        audio_path, predictions, 
-                        self.label_to_individual,
-                        top_k=5, save_path=pred_save_path
+                    # 使用新的单个推理结果可视化函数
+                    from utils.visualization import plot_single_inference_result
+                    
+                    class_names = list(self.label_to_individual.values())
+                    
+                    plot_single_inference_result(
+                        predicted_label=predicted_label,
+                        confidence=confidence,
+                        all_probabilities=all_probabilities,
+                        class_names=class_names,
+                        audio_filename=audio_filename,
+                        save_path=pred_save_path
                     )
                     
                     logger.info(f"📊 可视化结果已保存")
