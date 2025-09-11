@@ -5,7 +5,9 @@ import librosa
 import warnings
 import os
 from core.logger import logger
-from data.augmentation import AudioAugmentation
+
+# 数据增强功能已移除
+AudioAugmentation = None
 
 warnings.filterwarnings('ignore')
 
@@ -13,8 +15,8 @@ warnings.filterwarnings('ignore')
 class AudioPreprocessor:
     """音频预处理类"""
 
-    def __init__(self, sample_rate=16000, n_fft=2048, hop_length=512, n_mels=128, duration=4, 
-                 enable_augmentation=False, augmentation_config=None, extract_features=['mel']):
+    def __init__(self, sample_rate=16000, n_mels=128, n_fft=2048, hop_length=512, 
+                 extract_features=['mel']):
         # 验证参数有效性
         if sample_rate <= 0:
             raise ValueError(f"采样率必须大于0，当前值：{sample_rate}")
@@ -24,28 +26,16 @@ class AudioPreprocessor:
             raise ValueError(f"hop_length必须在(0, {n_fft})范围内，当前值：{hop_length}")
         if n_mels <= 0:
             raise ValueError(f"n_mels必须大于0，当前值：{n_mels}")
-        if duration <= 0:
-            raise ValueError(f"音频时长必须大于0，当前值：{duration}")
             
         self.sample_rate = sample_rate
         self.n_fft = n_fft
         self.hop_length = hop_length
         self.n_mels = n_mels
-        self.duration = duration
         
         # 特征提取配置
         self.extract_features = extract_features if isinstance(extract_features, list) else [extract_features]
         
-        # 数据增强配置
-        self.enable_augmentation = enable_augmentation
-        if self.enable_augmentation:
-            self.augmentation = AudioAugmentation(augmentation_config)
-        else:
-            self.augmentation = None
-        
-        logger.info(f"音频预处理器初始化：sr={sample_rate}, n_fft={n_fft}, n_mels={n_mels}")
-        logger.info(f"特征提取类型: {self.extract_features}")
-        logger.info(f"数据增强: {'启用' if enable_augmentation else '禁用'}")
+        # 音频预处理器初始化完成
 
     def load_audio(self, file_path, duration=None):
         """加载音频文件"""
@@ -89,11 +79,11 @@ class AudioPreprocessor:
             if len(audio) < expected_length:
                 pad_length = expected_length - len(audio)
                 audio = np.pad(audio, (0, pad_length), mode='constant', constant_values=0)
-                logger.debug(f"音频文件填充：{file_path}，填充长度：{pad_length}")
+                # 音频文件填充
             elif len(audio) > expected_length:
                 # 如果音频过长，截取前面部分
                 audio = audio[:expected_length]
-                logger.debug(f"音频文件截取：{file_path}")
+                # 音频文件截取
                 
             # 检查音频是否全为静音
             if np.max(np.abs(audio)) < 1e-6:
@@ -236,21 +226,16 @@ class AudioPreprocessor:
             logger.error(f"提取频谱对比度特征失败: {str(e)}")
             return None
 
-    def preprocess_audio(self, file_path, duration=4, apply_augmentation=False):
+    def preprocess_audio(self, file_path, duration=4):
         """完整的音频预处理流程"""
         audio = self.load_audio(file_path, duration)
         if audio is None:
             return None
 
-        # 应用数据增强(仅在训练时)
-        if apply_augmentation and self.augmentation is not None:
-            try:
-                audio = self.augmentation.augment_audio(audio, self.sample_rate)
-            except Exception as e:
-                logger.warning(f"音频数据增强失败: {str(e)}")
+        # 数据增强功能已移除
 
         # 调试信息：打印特征提取配置
-        logger.debug(f"特征提取配置: {self.extract_features}")
+        # 特征提取配置
         
         # 提取多种特征
         features_dict = {}
@@ -269,26 +254,21 @@ class AudioPreprocessor:
                 continue
                 
             if features is not None:
-                # 应用频谱图级别的数据增强
-                if apply_augmentation and self.augmentation is not None:
-                    try:
-                        features = self.augmentation.augment_spectrogram(features)
-                    except Exception as e:
-                        logger.warning(f"频谱图数据增强失败: {str(e)}")
+                # 数据增强功能已移除
                         
                 features_dict[feature_type] = features
         
         # 如果只有一种特征，直接返回
         if len(features_dict) == 1:
             result = list(features_dict.values())[0]
-            logger.debug(f"单一特征形状: {result.shape}")
+            # 单一特征形状
             return result
         
         # 如果有多种特征，进行融合
         if len(features_dict) > 1:
-            logger.debug(f"检测到多种特征，进行融合: {list(features_dict.keys())}")
+            # 检测到多种特征，进行融合
             result = self._fuse_features(features_dict)
-            logger.debug(f"融合后特征形状: {result.shape}")
+            # 融合后特征形状
             return result
         
         # 如果没有成功提取任何特征
@@ -310,11 +290,11 @@ class AudioPreprocessor:
             for feature_type, features in features_dict.items():
                 features_cropped = features[:, :min_time_steps]
                 features_list.append(features_cropped)
-                logger.debug(f"{feature_type}特征形状: {features_cropped.shape}")
+                # 特征形状
             
             # 垂直连接特征
             fused_features = np.vstack(features_list)
-            logger.debug(f"融合后特征形状: {fused_features.shape}")
+            # 融合后特征形状
             
             return fused_features
             

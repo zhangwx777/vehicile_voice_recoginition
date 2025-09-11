@@ -1,0 +1,34 @@
+{
+  "timestamp": "20250910_191747",
+  "audio_info": {
+    "file_path": "vehicle_audio_data\\individual_recognition\\individual_vehicles\\truck_002\\truck_002_sample_000.wav",
+    "file_name": "truck_002_sample_000.wav",
+    "file_size": 96044,
+    "duration": 3.0,
+    "sample_rate": 16000
+  },
+  "recognition_result": {
+    "vehicle_id": "truck_002",
+    "confidence": 0.9773350596673673,
+    "processing_time": 0.07173991203308105
+  },
+  "engine_stats": {
+    "total_recognitions": 1,
+    "successful_recognitions": 1,
+    "avg_processing_time": 0.07173991203308105,
+    "mode_usage": {
+      "similarity": 1
+    },
+    "success_rate": 1.0,
+    "components_status": {
+      "enhanced_extractor": true,
+      "similarity_engine": true,
+      "audio_preprocessor": true
+    }
+  },
+  "generated_files": {
+    "features_plot": "results\\audio_features_truck_002_sample_000_20250910_191745.png",
+    "result_plot": "results\\recognition_result_truck_002_20250910_191747.png",
+    "json_data": "results\\recognition_data_truck_002_sample_000_20250910_191747.json"
+  }
+}

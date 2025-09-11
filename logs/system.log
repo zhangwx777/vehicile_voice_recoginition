@@ -1,0 +1,115 @@
+2025-09-10 19:15:11,800 - VehicleRecognition - INFO - 开始处理音频: vehicle_audio_data/individual_recognition/individual_vehicles/sedan_001/sedan_001_sample_000.wav
+2025-09-10 19:15:14,133 - VehicleRecognition - INFO - 处理完成，结果保存至: results
+2025-09-10 19:15:40,224 - VehicleRecognition - INFO - 开始处理音频: vehicle_audio_data/individual_recognition/individual_vehicles/sedan_001/sedan_001_sample_000.wav
+2025-09-10 19:15:42,368 - VehicleRecognition - INFO - 处理完成，结果保存至: results
+2025-09-10 19:16:21,915 - VehicleRecognition - INFO - 开始处理音频: vehicle_audio_data/individual_recognition/individual_vehicles/suv_002/suv_002_sample_000.wav
+2025-09-10 19:16:24,136 - VehicleRecognition - INFO - 处理完成，结果保存至: results
+2025-09-10 19:17:45,117 - VehicleRecognition - INFO - 开始处理音频: vehicle_audio_data\individual_recognition\individual_vehicles\truck_002\truck_002_sample_000.wav
+2025-09-10 19:17:47,459 - VehicleRecognition - INFO - 处理完成，结果保存至: results
+2025-09-10 20:43:21,972 - VehicleRecognition - INFO - 开始训练分类模型...
+2025-09-10 20:43:35,119 - VehicleRecognition - INFO - 输入形状: torch.Size([128, 126])
+2025-09-10 20:43:35,120 - VehicleRecognition - INFO - 类别数量: 25
+2025-09-10 20:43:37,189 - VehicleRecognition - INFO - 训练可视化已启用
+2025-09-10 20:43:39,982 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:43:39,983 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:43:39,983 - VehicleRecognition - INFO - Epoch 1/30: Train Loss: 5.6003, Train Acc: 5.00%, Test Loss: 3.2182, Test Acc: 4.00%
+2025-09-10 20:43:42,612 - VehicleRecognition - INFO - Epoch 2/30: Train Loss: 3.2203, Train Acc: 5.00%, Test Loss: 3.2142, Test Acc: 4.00%
+2025-09-10 20:43:45,283 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:43:45,283 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:43:45,283 - VehicleRecognition - INFO - Epoch 3/30: Train Loss: 3.2155, Train Acc: 6.00%, Test Loss: 3.2024, Test Acc: 8.00%
+2025-09-10 20:43:47,953 - VehicleRecognition - INFO - Epoch 4/30: Train Loss: 3.1988, Train Acc: 7.50%, Test Loss: 3.1559, Test Acc: 8.00%
+2025-09-10 20:43:50,613 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:43:50,614 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:43:50,614 - VehicleRecognition - INFO - Epoch 5/30: Train Loss: 3.0197, Train Acc: 9.00%, Test Loss: 2.7927, Test Acc: 14.00%
+2025-09-10 20:43:53,354 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:43:53,355 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:43:53,355 - VehicleRecognition - INFO - Epoch 6/30: Train Loss: 2.7221, Train Acc: 13.50%, Test Loss: 2.4048, Test Acc: 16.00%
+2025-09-10 20:43:56,066 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:43:56,066 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:43:56,066 - VehicleRecognition - INFO - Epoch 7/30: Train Loss: 2.3945, Train Acc: 18.50%, Test Loss: 1.9039, Test Acc: 36.00%
+2025-09-10 20:43:58,808 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:43:58,809 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:43:58,809 - VehicleRecognition - INFO - Epoch 8/30: Train Loss: 1.8865, Train Acc: 32.00%, Test Loss: 1.2535, Test Acc: 74.00%
+2025-09-10 20:44:01,522 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:44:01,523 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:44:01,523 - VehicleRecognition - INFO - Epoch 9/30: Train Loss: 1.3916, Train Acc: 52.50%, Test Loss: 0.8086, Test Acc: 78.00%
+2025-09-10 20:44:04,214 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:44:04,215 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:44:04,215 - VehicleRecognition - INFO - Epoch 10/30: Train Loss: 1.0425, Train Acc: 62.00%, Test Loss: 0.4824, Test Acc: 80.00%
+2025-09-10 20:44:06,879 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:44:06,881 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:44:06,881 - VehicleRecognition - INFO - Epoch 11/30: Train Loss: 0.9086, Train Acc: 67.50%, Test Loss: 0.4606, Test Acc: 84.00%
+2025-09-10 20:44:09,549 - VehicleRecognition - INFO - Epoch 12/30: Train Loss: 0.8115, Train Acc: 72.50%, Test Loss: 0.5165, Test Acc: 84.00%
+2025-09-10 20:44:12,179 - VehicleRecognition - INFO - Epoch 13/30: Train Loss: 0.7516, Train Acc: 77.00%, Test Loss: 0.4677, Test Acc: 84.00%
+2025-09-10 20:44:14,867 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:44:14,868 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:44:14,868 - VehicleRecognition - INFO - Epoch 14/30: Train Loss: 0.4558, Train Acc: 80.50%, Test Loss: 0.1696, Test Acc: 92.00%
+2025-09-10 20:44:17,496 - VehicleRecognition - INFO - Epoch 15/30: Train Loss: 0.5598, Train Acc: 81.00%, Test Loss: 0.4563, Test Acc: 82.00%
+2025-09-10 20:44:20,132 - VehicleRecognition - INFO - 模型已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_best_model.pth
+2025-09-10 20:44:20,133 - VehicleRecognition - INFO - 标签映射已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\individual_label_mapping.json
+2025-09-10 20:44:20,133 - VehicleRecognition - INFO - Epoch 16/30: Train Loss: 0.7827, Train Acc: 68.00%, Test Loss: 0.2391, Test Acc: 100.00%
+2025-09-10 20:44:22,766 - VehicleRecognition - INFO - Epoch 17/30: Train Loss: 0.4801, Train Acc: 82.00%, Test Loss: 0.1580, Test Acc: 92.00%
+2025-09-10 20:44:25,360 - VehicleRecognition - INFO - Epoch 18/30: Train Loss: 0.3671, Train Acc: 87.50%, Test Loss: 0.1694, Test Acc: 94.00%
+2025-09-10 20:44:27,960 - VehicleRecognition - INFO - Epoch 19/30: Train Loss: 0.2793, Train Acc: 89.50%, Test Loss: 0.1119, Test Acc: 96.00%
+2025-09-10 20:44:30,606 - VehicleRecognition - INFO - Epoch 20/30: Train Loss: 0.2389, Train Acc: 89.50%, Test Loss: 0.0983, Test Acc: 96.00%
+2025-09-10 20:44:33,215 - VehicleRecognition - INFO - Epoch 21/30: Train Loss: 0.1711, Train Acc: 93.50%, Test Loss: 0.0411, Test Acc: 100.00%
+2025-09-10 20:44:35,799 - VehicleRecognition - INFO - Epoch 22/30: Train Loss: 0.1120, Train Acc: 96.00%, Test Loss: 0.0193, Test Acc: 100.00%
+2025-09-10 20:44:38,414 - VehicleRecognition - INFO - Epoch 23/30: Train Loss: 0.0855, Train Acc: 97.00%, Test Loss: 0.0337, Test Acc: 98.00%
+2025-09-10 20:44:41,070 - VehicleRecognition - INFO - Epoch 24/30: Train Loss: 0.0920, Train Acc: 96.50%, Test Loss: 0.0180, Test Acc: 100.00%
+2025-09-10 20:44:43,753 - VehicleRecognition - INFO - Epoch 25/30: Train Loss: 0.0968, Train Acc: 96.50%, Test Loss: 0.0235, Test Acc: 98.00%
+2025-09-10 20:44:46,408 - VehicleRecognition - INFO - Epoch 26/30: Train Loss: 0.0558, Train Acc: 98.50%, Test Loss: 0.0072, Test Acc: 100.00%
+2025-09-10 20:44:49,024 - VehicleRecognition - INFO - Epoch 27/30: Train Loss: 0.0515, Train Acc: 97.50%, Test Loss: 0.0024, Test Acc: 100.00%
+2025-09-10 20:44:51,617 - VehicleRecognition - INFO - Epoch 28/30: Train Loss: 0.0975, Train Acc: 97.50%, Test Loss: 0.0062, Test Acc: 100.00%
+2025-09-10 20:44:54,193 - VehicleRecognition - INFO - Epoch 29/30: Train Loss: 0.0725, Train Acc: 97.50%, Test Loss: 0.0083, Test Acc: 100.00%
+2025-09-10 20:44:56,854 - VehicleRecognition - INFO - Epoch 30/30: Train Loss: 0.0590, Train Acc: 97.50%, Test Loss: 0.0075, Test Acc: 100.00%
+2025-09-10 20:44:56,854 - VehicleRecognition - INFO - 训练完成! 最佳测试准确率: 100.00%
+2025-09-10 20:44:56,855 - VehicleRecognition - INFO - 训练历史已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\training_history.json
+2025-09-10 20:44:56,855 - VehicleRecognition - INFO - 评估模型性能...
+2025-09-10 20:44:57,168 - VehicleRecognition - INFO - 分类报告:
+2025-09-10 20:44:57,172 - VehicleRecognition - INFO -                 precision    recall  f1-score   support
+
+       bus_000       1.00      1.00      1.00         2
+       bus_001       1.00      1.00      1.00         2
+       bus_002       1.00      1.00      1.00         2
+       bus_003       1.00      1.00      1.00         2
+       bus_004       1.00      1.00      1.00         2
+motorcycle_000       1.00      1.00      1.00         2
+motorcycle_001       1.00      1.00      1.00         2
+motorcycle_002       1.00      1.00      1.00         2
+motorcycle_003       1.00      1.00      1.00         2
+motorcycle_004       1.00      1.00      1.00         2
+     sedan_000       1.00      1.00      1.00         2
+     sedan_001       1.00      1.00      1.00         2
+     sedan_002       1.00      1.00      1.00         2
+     sedan_003       1.00      1.00      1.00         2
+     sedan_004       1.00      1.00      1.00         2
+       suv_000       1.00      1.00      1.00         2
+       suv_001       1.00      1.00      1.00         2
+       suv_002       1.00      1.00      1.00         2
+       suv_003       1.00      1.00      1.00         2
+       suv_004       1.00      1.00      1.00         2
+     truck_000       1.00      1.00      1.00         2
+     truck_001       1.00      1.00      1.00         2
+     truck_002       1.00      1.00      1.00         2
+     truck_003       1.00      1.00      1.00         2
+     truck_004       1.00      1.00      1.00         2
+
+      accuracy                           1.00        50
+     macro avg       1.00      1.00      1.00        50
+  weighted avg       1.00      1.00      1.00        50
+
+2025-09-10 20:44:57,175 - VehicleRecognition - INFO - 评估结果已保存到: D:\vehiclerecognize\vehicle0910\vehicle_voice_recognition\models\evaluation_results.json
+2025-09-10 20:44:57,175 - VehicleRecognition - INFO - 构建相似度搜索数据库...
+2025-09-10 20:45:19,465 - VehicleRecognition - ERROR - 构建相似度数据库失败: Remote end closed connection without response
+2025-09-10 20:45:19,466 - VehicleRecognition - INFO - 推理示例: vehicle_audio_data/individual_recognition/individual_vehicles/sedan_000/sedan_000_sample_000.wav
+2025-09-10 20:45:19,466 - VehicleRecognition - INFO - === 分类模式推理 ===
+2025-09-10 20:45:19,476 - VehicleRecognition - INFO - 预测车辆: sedan_000
+2025-09-10 20:45:19,476 - VehicleRecognition - INFO - 置信度: 0.9995
+2025-09-10 20:45:19,480 - VehicleRecognition - INFO - 前5个最可能的车辆:
+2025-09-10 20:45:19,482 - VehicleRecognition - INFO -   1. sedan_000: 0.9995
+2025-09-10 20:45:19,482 - VehicleRecognition - INFO -   2. sedan_001: 0.0004
+2025-09-10 20:45:19,482 - VehicleRecognition - INFO -   3. suv_002: 0.0000
+2025-09-10 20:45:19,482 - VehicleRecognition - INFO -   4. motorcycle_002: 0.0000
+2025-09-10 20:45:19,482 - VehicleRecognition - INFO -   5. sedan_002: 0.0000
+2025-09-10 21:19:43,728 - VehicleRecognition - ERROR - 相似度组件初始化失败: Remote end closed connection without response
+2025-09-10 21:20:07,377 - VehicleRecognition - ERROR - 相似度组件初始化失败: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>
